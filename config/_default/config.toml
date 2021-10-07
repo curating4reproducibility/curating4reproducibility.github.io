@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
 
-copyright = "&copy;{year} CURE Consortium"
+copyright = "&copy; {year} CURE Consortium"
 timeout = 10000
 enableEmoji = true
 paginate = 13
