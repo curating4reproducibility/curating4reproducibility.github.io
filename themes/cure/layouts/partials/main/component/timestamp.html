@@ -1,0 +1,8 @@
+{{ if .GitInfo }}
+    <a href="{{ .Site.Params.github }}commit/{{ .GitInfo.Hash }}" target="_blank" rel="noreferrer">
+      <button class="editBtn" aria-label="Updated Button">
+        This page updated: {{ .GitInfo.AuthorDate }}
+      </button>
+    </a>
+{{ end }}
+
