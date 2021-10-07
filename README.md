@@ -1,0 +1,2 @@
+# site
+CURE’s mission is to support curation of research data and review of code and associated digital scholarly objects for the purpose of facilitating the digital preservation of the evidence base necessary for future understanding, evaluation, and reproducibility of scientific claims. We do this through establishing standards, sharing practices, and promoting the philosophy of Data Quality Review.
