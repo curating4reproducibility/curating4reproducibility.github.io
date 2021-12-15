@@ -1,20 +1,26 @@
 [[main]]
+  identifier = "10things"
+  name = "10 Things"
+  url = "10things"
+  weight = "10" 
+
+[[main]]
   identifier = "resources"
   name = "Resources"
   url = "resources"
   weight = 30
 
-[[main]]
-  identifier = "updates"
-  name = "Updates"
-  url = "updates"
-  weight = 10
-
-[[main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "blog"
-  weight = 20
+#[[main]]
+#  identifier = "updates"
+#  name = "Updates"
+#  url = "updates"
+#  weight = 10
+#
+#[[main]]
+#  identifier = "blog"
+#  name = "Blog"
+#  url = "blog"
+#  weight = 20
 
 [[main]]
   identifier = "membership"

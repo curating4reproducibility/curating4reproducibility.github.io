@@ -1,4 +1,4 @@
-baseURL = "https://cure4reproducibility.org"
+baseURL = "https://curating4reproducibility.org"
 title = "CUrating for REproducibility"
 theme = "cure"
 

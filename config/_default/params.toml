@@ -29,8 +29,8 @@ paginateWindow = 1
 taxoPaginate = 13
 taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
-github = "https://github.com/cure4reproducibility/cure4reproducibility/"
-editBaseURL = "https://github.com/cure4reproducibility/cure4reproducibility/edit/main/content"
+github = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/"
+editBaseURL = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/edit/main/content"
 
 # comment
 enableComment = false
