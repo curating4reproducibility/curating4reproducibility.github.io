@@ -4,12 +4,12 @@
   url = "10things"
   weight = "10" 
 
-[[main]]
-  identifier = "resources"
-  name = "Resources"
-  url = "resources"
-  weight = 30
-
+#[[main]]
+#  identifier = "resources"
+#  name = "Resources"
+#  url = "resources"
+#  weight = 30
+#
 #[[main]]
 #  identifier = "updates"
 #  name = "Updates"
@@ -21,15 +21,15 @@
 #  name = "Blog"
 #  url = "blog"
 #  weight = 20
-
-[[main]]
-  identifier = "membership"
-  name = "Membership"
-  url = "membership"
-  weight = 40
-
-[[main]]
-  identifier = "people"
-  name = "People"
-  url = "people"
-  weight = 50
+#
+#[[main]]
+#  identifier = "membership"
+#  name = "Membership"
+#  url = "membership"
+#  weight = 40
+#
+#[[main]]
+#  identifier = "people"
+#  name = "People"
+#  url = "people"
+#  weight = 50
