@@ -21,7 +21,7 @@ landing:
   # backgroundImage: 
   #   src: images/landscape.jpg
   #   height: 600
-footer:
+#footer:
 #  sections:
 #    - title: General
 #      links:
@@ -53,13 +53,12 @@ footer:
 #          link: https://gohugo.io/
 #        - title: Telemetry
 #          link: https://gohugo.io/
-  contents: 
-    align: left
-    applySinglePageCss: false
-    markdown:
-      |
-      &copy; {year} CURE Consortium.
-
+#  contents: 
+#    align: left
+#    applySinglePageCss: false
+#    markdown:
+#      |
+#      &copy; {{ year }} CURE Consortium.
 #sections:
 #  - bgcolor: #7BAFD4
 #    type: card

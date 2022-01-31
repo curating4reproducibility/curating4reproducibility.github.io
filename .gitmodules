@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-cure"]
+	path = themes/hugo-theme-cure
+	url = git@github.com:curating4reproducibility/hugo-theme-cure.git

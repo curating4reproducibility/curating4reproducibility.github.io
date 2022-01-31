@@ -1,6 +1,6 @@
 baseURL = "https://curating4reproducibility.org"
 title = "CUrating for REproducibility"
-theme = "cure"
+theme = "hugo-theme-cure"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
