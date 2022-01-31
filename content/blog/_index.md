@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: Blog list page
+title: Data CuRiosities
+description: CuRe Blog
 blogHeaderType: img
 header:
   - type: text
