@@ -1,6 +1,6 @@
 logo = true
 logoText = "CUrating for REproducibility"
-logoType = "short" # long, short
+logoType = "long" # long, short
 description = "CURE’s mission is to support curation of research data to support the reproducibility of scientific claims"
 
 themeOptions = ["light", "dark"]

@@ -6,11 +6,11 @@ draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
   height: 500
-  image: favicon/android-icon-192x192.png
+  image: logo.png
   title:
-    - CUrating for REproducibility
+    - Curating research artifacts to support scientific integrity.
   text:
-    - Curating to support the future of science through reproducible research
+    - The CUrating for REproducibility (CURE) Consortium supports curation of research data and review of code and associated digital scholarly objects for the purpose of facilitating the digital preservation of the evidence-base necessary for future understanding, evaluation, and reproducibility of scientific claims.
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
