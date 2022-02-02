@@ -1,6 +1,6 @@
 ---
 title: "Thing 9: Automation"
-description: "Information about the computational steps throughout the research process is script- or workflow-based, avoiding manual processes to the fullest extent possible."
+description: "As much as possible, the computational workflow is script- or workflow-based so that the workflow can be re-executed using minimal actions."
 draft: false
 weight: 90
 enableToc: true
