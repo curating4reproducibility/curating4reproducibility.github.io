@@ -19,7 +19,9 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://curating4reproducibility.org/10things/thing01/</guid>
-        <description></description>
+        <description>Related FAIR Principles: R1, R1.2, R1.3
+A research compendium contains all of the objects required to reproduce a predefined output. When curation includes reproducing scientific claims or findings, you will need to check that all of the requisite objects and information are included in the research compendium. This often includes data, code, outputs, a codebook or data dictionary, and supporting documentation.
+Completeness ensures re-users of the research compendium are well-informed and have the context necessary to reproduce the results without needing to contact the original producer or track down missing components.</description>
       </item>
       
       <item>
