@@ -1532,10 +1532,10 @@
 <div class="mid">
   <div class="divider">
     
-    <nav id="single-menu" class="hide" data-dir="ltr">
+    <nav id="single-menu" class="l" data-dir="ltr">
     </nav>
 
-    <article id="list-main" class="lm" data-dir="ltr">
+    <article id="list-main" class="m" data-dir="ltr">
       
         <nav class="breadcrumb" aria-label="breadcrumbs" data-is-blog="true">
   
@@ -1916,7 +1916,7 @@ Propoetides <strong>parte</strong>.</p>
   var singleMenu = document.getElementById('single-menu');
   var listMain = document.getElementById('list-main');
   var listSide = document.getElementById('list-side');
-  var wideViewAsDefault = JSON.parse("true");
+  var wideViewAsDefault = JSON.parse("null");
 
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
