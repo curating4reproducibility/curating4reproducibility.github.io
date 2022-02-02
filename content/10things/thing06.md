@@ -1,6 +1,6 @@
 ---
 title: "Thing 6: Access"
-description: "Science is a community endeavor that sees maximum benefits when the materials produced in the course of research activities are made fully available to community members to enable them to build upon, reuse, and verify scientific knowledge."
+description: "It is clear who can use what, how, and under what conditions, with open access preferred."
 draft: false
 weight: 60
 enableToc: true
