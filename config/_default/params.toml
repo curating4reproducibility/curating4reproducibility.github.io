@@ -7,6 +7,8 @@ themeOptions = ["light", "dark"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
+wideViewAsDefault = true
+
 enableGitInfo = true
 
 enableTocSwitch = true
