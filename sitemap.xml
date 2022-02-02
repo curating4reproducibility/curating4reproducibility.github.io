@@ -294,12 +294,18 @@
   
   <url>
     <loc>https://curating4reproducibility.org/about/</loc>
+    <lastmod>2022-02-02T10:39:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://curating4reproducibility.org/about/community/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://curating4reproducibility.org/about/approach/</loc>
+    <lastmod>2022-02-02T10:39:35-05:00</lastmod>
   </url>
   
   <url>
