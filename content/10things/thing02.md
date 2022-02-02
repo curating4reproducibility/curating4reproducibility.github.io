@@ -1,6 +1,6 @@
 ---
 title: "Thing 2: Organization"
-description: "Organization is necessary to understand and to keep track of the various objects and the relationships among them over time."
+description: "It is easy to understand and keep track of the various objects in the research compendium and their relationship over time."
 draft: false
 weight: 20
 enableToc: true
