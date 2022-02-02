@@ -6,6 +6,7 @@ weight: 90
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
+**Related FAIR Principles:**
 
 Introductory text
 
