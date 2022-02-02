@@ -111,7 +111,10 @@ Main takeaway
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://curating4reproducibility.org/10things/thing08/</guid>
-        <description></description>
+        <description>Related FAIR Principles:
+Introductory text
+Main takeaway
+  Get Started  Some Markdown Contents     Learn More  Some Markdown Contents     Go Deeper  Some Markdown Contents   </description>
       </item>
       
       <item>
