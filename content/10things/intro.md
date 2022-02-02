@@ -11,12 +11,12 @@ Computational reproducibility is defined as the ability to obtain consistent com
 Computational reproducibility involves the assembly of a “reproducibility file bundle” or “research compendium” that includes all of the research artifacts (e.g., data, code, documentation) necessary for the computation. Prior to publishing or archiving the research compendium, the objects contained within require curation to ensure they meet quality standards for computational reproducibility. 
 
 {{< alert theme="info" dir="ltr" >}} 
-The object of curation in the context of reproducibility is the scientific claim: We are curating the digital artifacts that underlie the claim.
+**The object of curation in the context of reproducibility is the scientific claim: We are curating the digital artifacts that underlie the claim.**
 {{< /alert >}}
 
 <br>Curation for FAIR and reproducible research is the process of reviewing and enhancing a research compendium for long term reuse. 
 
-**We curate to: a) assess whether computational reproducibility can be achieved using the digital artifacts contained within the research compendium, and b) ensure that the quality of the digital artifacts aligns with the FAIR principles and community standards for long-term archival preservation.** 
+**We curate to: a) assess whether computational reproducibility can be achieved using the digital artifacts contained within the research compendium; and b) ensure that the quality of the digital artifacts aligns with the FAIR principles and community standards for long-term archival preservation.** 
 
 Both activities are essential aspects of curation in the context of reproducible research. We call these practices Curation for FAIR and Reproducible Research, or CURE-FAIR.
 
