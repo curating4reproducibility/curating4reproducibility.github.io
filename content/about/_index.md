@@ -15,11 +15,13 @@ draft: false
 
 #### Founding Members
 [**Florio Arguillas**](https://data.research.cornell.edu/content/florio-arguillas)<br>
-Research Associate, Cornell Center for Social Sciences<br>
+Research Associate<br>
+Cornell Center for Social Sciences<br>
 Cornell University
 
 [**Thu-Mai Christian**](https://odum.unc.edu/people/christian/)<br>
-Assistant Director for Archives, Odum Institute for Research in Social Science<br>
+Assistant Director for Archives<br>
+Odum Institute for Research in Social Science<br>
 University of North Carolina at Chapel Hill
 
 [**Limor Peer**](https://isps.yale.edu/team/limor-peer#:~:text=Limor%20Peer%2C%20PhD%20is%20Associate,reproducibility%20of%20research%20at%20ISPS.)<br>
