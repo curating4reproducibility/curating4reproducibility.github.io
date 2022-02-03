@@ -23,6 +23,16 @@
       </item>
       
       <item>
+        <title>Overview</title>
+        <link>https://curating4reproducibility.org/10things/overview/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://curating4reproducibility.org/10things/overview/</guid>
+        <description>We have followed the approach taken by several groups to create a list of “Things” that can serve as stand-alone guides for self-directed inquiry (e.g., Library Carpentry and collaborators’ Top 10 FAIR Data &amp;amp; Software Things; Australian Research Data Commons’ 23 (research data) things; Griffith University Library and eResearch Services’ Reproducible-Research-Things; Briney et al. Foundational Practices of Research Data Management).
+Our focus is specifically on the key issues of curating reproducible and FAIR research.</description>
+      </item>
+      
+      <item>
         <title>Thing 1:  Completeness</title>
         <link>https://curating4reproducibility.org/10things/thing01/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
