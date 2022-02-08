@@ -308,6 +308,11 @@
   </url>
   
   <url>
+    <loc>https://curating4reproducibility.org/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://curating4reproducibility.org/about/</loc>
     <lastmod>2022-02-03T11:28:52-05:00</lastmod>
   </url>
