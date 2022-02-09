@@ -1,6 +1,6 @@
 ---
-title: Data CuRiosities
-description: CuRe Blog
+title: News
+description: News
 blogHeaderType: img
 header:
   - type: text
@@ -28,7 +28,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - CuRe blog
+      - News
     subtitle:
       - 
     titleColor: 
