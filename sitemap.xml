@@ -333,11 +333,6 @@
   </url>
   
   <url>
-    <loc>https://curating4reproducibility.org/blog/</loc>
-    <lastmod>2022-01-07T17:10:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://curating4reproducibility.org/dqr/</loc>
     <lastmod>2022-02-02T17:48:32-05:00</lastmod>
   </url>
@@ -345,6 +340,11 @@
   <url>
     <loc>https://curating4reproducibility.org/resources/practices/directory/</loc>
     <lastmod>2022-02-02T10:56:53-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://curating4reproducibility.org/blog/</loc>
+    <lastmod>2022-02-09T17:38:01-05:00</lastmod>
   </url>
   
 </urlset>
