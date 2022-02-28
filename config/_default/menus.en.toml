@@ -2,7 +2,7 @@
   identifier = "10things"
   name = "10 Things"
   url = "10things"
-  weight = "10" 
+  weight = 40 
 
 #[[main]]
 #  identifier = "resources"
@@ -16,12 +16,25 @@
 #  url = "updates"
 #  weight = 10
 #
-#[[main]]
-#  identifier = "blog"
-#  name = "Blog"
-#  url = "blog"
-#  weight = 20
-#
+[[main]]
+ identifier = "about"
+ name = "About"
+ url = "about"
+ weight= 10
+
+[[main]]
+ identifier = "approach"
+ name = "The Cure Approach"
+ url = "about/approach"
+ parent = "about"
+ weight = 10
+
+[[main]]
+ identifier = "news"
+ name = "News"
+ url = "news"
+ weight = 20
+
 #[[main]]
 #  identifier = "membership"
 #  name = "Membership"

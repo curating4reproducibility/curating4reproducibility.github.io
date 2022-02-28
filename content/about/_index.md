@@ -1,8 +1,45 @@
 ---
-title: About CURE
-description: About the CURE Consortium
-draft: false
+title: About CuRe
+description: About the CuRe consortium
+wideViewAsDefault: true
+blogHeaderType: img
+header:
+  - type: text
+    height: 200
+    paddingX: 50
+    align: center
+    title:
+      - About CuRe
+    subtitle: 
+      - 
+      - 
+    titleColor: 
+    titleFontSize: 44
+    subtitleColor: 
+    subtitleFontSize: 20
+    spaceBetweenTitleSubtitle: 16
+  
+  - type: img
+    imageSrc: images/header/background.jpg
+    imageSize: cover
+    imageRepeat: no-repeat
+    imagePosition: center
+    height: 280
+    paddingX: 50
+    paddingY: 0
+    align: center
+    title:
+      - About CuRe
+    subtitle:
+      - 
+    titleColor: 
+    titleShadow: true
+    titleFontSize: 44
+    subtitleColor:
+    subtitleFontSize: 16
+    spaceBetweenTitleSubtitle: 20
 ---
+
 **The Curating for Reproducibility Consortium was established to promote curation practices that ensure that research compendia and their component artifacts constitute a complete and reproducible scholarly record. Our goal is to establish standards, share practices, and promote the [Data Quality Review](dqr) framework for rigorous curation workflows that support computational reproducibility of published scientific findings.**
 
 **Establishing Standards.** Building on existing and evolving standards, CURE is dedicated to establishing and communicating the driving principles and criteria for proper curation for reproducibility.
@@ -10,8 +47,6 @@ draft: false
 **Sharing Practices.** Curating for reproducibility involves multiple tasks and several stakeholders. A primary goal of CURE is to map the vital elements of the workflow, and to share the best practices that have emerged within each organization.
 
 **Promoting Data Quality Review.** CURE members believe that pre-publication data quality review is essential for the progression of science and preservation of knowledge.
-
----
 
 #### Founding Members
 [**Florio Arguillas**](https://data.research.cornell.edu/content/florio-arguillas)<br>
