@@ -1,0 +1,95 @@
+# Meta Data for SEO
+
+## Homepage
+title = "CUrating for REproducibility"
+titleSeparator = "-"
+#titleAddition = ""
+description = "CURE’s mission is to support curation of research data to support the reproducibility of scientific claims"
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["logo.png"]
+ogLocale = "en_US"
+domainTLD = "curating4reproducibility.org"
+titleHome = "CUrating for REproducibility"
+
+## Twitter Cards
+#twitterSite = "@"
+#twitterCreator = ""
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "CUrating for REproducibility"
+schemaAuthor = "CURE Consortium"
+schemaAuthorTwitter = ""
+schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/curating4reproducibility/"
+schemaLocale = "en-US"
+schemaLogo = "icon.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "logo.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = ""
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com/\">GitHub Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2021-2022 CURE Consortium"
+
+# Alert
+alert = false
+alertDismissable = true
+# This can be used to configure an alert on first load.
+#alertText = ""
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/"
+docsRepoBranch = "main"
+docsRepoSubPath = ""
+editPage = true
+lastMod = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
