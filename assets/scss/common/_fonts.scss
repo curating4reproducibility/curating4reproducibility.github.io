@@ -99,3 +99,164 @@
     url("fonts/vendor/jost/jost-v4-latin-700italic.woff2") format("woff2"),
     url("fonts/vendor/jost/jost-v4-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Regular Regular"),
+    local("ArchivoRegular"),
+    // Obnibus-Type Archivo
+    local("Archivo Regular"),
+    local("Archivo-Regular"),
+    url("fonts/vendor/archivo/archivo-regular.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Italic Italic"),
+    local("ArchivoItalic"),
+    // Obnibus-Type Archivo
+    local("Archivo Italic"),
+    local("Archivo-Italic"),
+    url("fonts/vendor/archivo/archivo-italic.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Regular Medium"),
+    local("ArchivoMedium"),
+    // Obnibus-Type Archivo
+    local("Archivo Medium"),
+    local("Archivo-Medium"),
+    url("fonts/vendor/archivo/archivo-medium.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Italic Medium Italic"),
+    local("ArchivoItalic-Medium"),
+    // Obnibus-Type Archivo
+    local("Archivo Medium Italic"),
+    local("Archivo-MediumItalic"),
+    url("fonts/vendor/archivo/archivo-mediumitalic.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-mediumitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Regular SemiBold"),
+    local("Archivo-SemiBold"),
+    // Obnibus-Type Archivo
+    local("Archivo SemiBold"),
+    local("Archivo-SemiBold"),
+    url("fonts/vendor/archivo/archivo-semibold.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Italic SemiBold Italic"),
+    local("ArchivoItalic-SemiBold"),
+    // Obnibus-Type Archivo
+    local("Archivo SemiBoldItalic"),
+    local("Archivo-SemiBoldItalic"),
+    url("fonts/vendor/archivo/archivo-semibolditalic.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-semibolditalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Regular Bold"),
+    local("Archivo-Bold"),
+    // Obnibus-Type Archivo
+    local("Archivo Bold"),
+    local("Archivo-Bold"),
+    url("fonts/vendor/archivo/archivo-bold.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Italic Bold Italic"),
+    local("ArchivoItalic-Bold"),
+    // Obnibus-Type Archivo
+    local("Archivo BoldItalic"),
+    local("Archivo-BoldItalic"),
+    url("fonts/vendor/archivo/archivo-bolditalic.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-bolditalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Regular ExtraBold"),
+    local("ArchivoExtraBold"),
+    // Obnibus-Type Archivo
+    local("Archivo ExtraBold"),
+    local("Archivo-ExtraBold"),
+    url("fonts/vendor/archivo/archivo-extrabold.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-extrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src:
+    // Google Fonts Archivo
+    local("Archivo Italic ExtraBold Italic"),
+    local("ArchivoItalic-ExtraBold"),
+    // Obnibus-Type Archivo
+    local("Archivo ExtraBoldItalic"),
+    local("Archivo-ExtraBoldItalic"),
+    url("fonts/vendor/archivo/archivo-extrabolditalic.woff2") format("woff2"),
+    url("fonts/vendor/archivo/archivo-extrabolditalic.woff") format("woff");
+}
+

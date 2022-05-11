@@ -1,9 +1,9 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://curating4reproducibility.org"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 7
@@ -13,6 +13,8 @@ rssLimit = 10
 defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 # defaultContentLanguageInSubdir = true
+
+ignoreErrors = ["image-not-found"]
 
 # add redirects/headers
 [outputs]
