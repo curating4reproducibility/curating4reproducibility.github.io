@@ -2,10 +2,17 @@
 
 ## Homepage
 title = "CUrating for REproducibility"
-titleSeparator = "-"
+titleSeparator = "|"
 #titleAddition = ""
 description = "CURE’s mission is to support curation of research data to support the reproducibility of scientific claims"
-
+# Header images
+headerImg = "cure.png"
+headerImgAlt = "CUrating for REproducibility"
+# Other images
+headerImgSVG = "cure.svg"
+iconSVG = "cure-logo.svg"
+# FaviconGenerator?
+useFaviconGenerator = true
 ## Documentation
 # docsVersion = "0.3"
 
