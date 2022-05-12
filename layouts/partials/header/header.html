@@ -12,7 +12,7 @@
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-md-nowrap" aria-label="Main navigation">
     <a class="navbar-brand p-0 me-auto" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
       {{ if .Site.Params.HeaderImg }}
-      <img src="{{ .Site.Params.HeaderImg }}" alt="{{ .Site.Params.HeaderImgAlt }}">
+      <img src="{{ .Site.baseurl }}{{ .Site.Params.HeaderImg }}" alt="{{ .Site.Params.HeaderImgAlt }}">
       {{ else }}
       {{ .Site.Params.Title }}
       {{ end }}
