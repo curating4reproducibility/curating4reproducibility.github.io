@@ -6,7 +6,7 @@ lastmod: 2022-05-11T17:42:15-04:00
 draft: false
 ---
 
-![](./cureapproach.png "High-level diagram of the CURE approach")
+![](cureapproach.png "High-level diagram of the CURE approach")
 
 **CURE is more than data curation.** The object of curation in the context of reproducibility is the evidence-base for the scientific claim.  This requires consideration of not only the artifacts that underlie reported findings, but also the research workflows that led to the creation of those artifacts that produced the the findings.
 
