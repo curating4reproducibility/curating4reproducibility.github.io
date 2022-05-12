@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://curating4reproducibility.org/sitemap.xml
