@@ -1,5 +1,7 @@
 .footer {
-  border-top: 1px solid $gray-200;
+  border-top: 1px solid;
+  border-image-source: linear-gradient(90deg, $yale, $carolina 50%, $cornell);
+  border-image-slice: 1;
   padding-top: 1.125rem;
   padding-bottom: 1.125rem;
 }
