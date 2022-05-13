@@ -20,5 +20,6 @@ sections:
       - subtitle: "Promoting Data Quality Review"
         description: "CURE members believe that pre-publication data quality review is essential for the progression of science and preservation of knowledge."
 linkblockwidth: 4
+listtitle: "Read more about CURE:"
 weight: 100
 ---
