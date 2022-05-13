@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ partial "landing/main.html" . }}
+{{ end }}
+{{ define "sidebar-prefooter" }}
+  {{ partial "landing/sidebar-prefooter.html" . }}
+{{ end }}
+{{ define "sidebar-footer" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-12">
+        <h2 class="h2">{{ .Params.listtitle | default "Read more:" }}</h2>
+      </div>
+      {{ range .Paginator.Pages }}
+        <div class="col-lg-{{ .Params.linkblockwidth | default 5 }}">
+           <h2 class="h4"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+           <p>{{ .Description | markdownify }}</p>
+        </div>
+      {{ end }}
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}

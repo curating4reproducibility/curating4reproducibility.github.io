@@ -39,8 +39,8 @@ schemaLogo = "cure-logo.png"
 schemaLogoWidth = 300
 schemaLogoHeight = 300
 schemaImage = "cure.png"
-schemaImageWidth = 1000
-schemaImageHeight = 225
+schemaImageWidth = 200
+schemaImageHeight = 45
 schemaTwitter = ""
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/"
@@ -59,6 +59,21 @@ landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "300"
+
+# Sponsors
+[sponsors]
+  [sponsors.cornell]
+    name = "Cornell University"
+    logo = "/images/cornell.png"
+    link = "https://cornell.edu"
+  [sponsors.unc]
+    name = "University of North Carolina"
+    logo = "/images/carolina.png"
+    link = "https://unc.edu"
+  [sponsors.yale]
+    name = "Yale University"
+    logo = "/images/yale.png"
+    link = "https://yale.edu"
 
 # Footer
 footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com/\">GitHub Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>."

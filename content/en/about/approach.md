@@ -4,9 +4,12 @@ description: "The CURE approach to curating research artifacts."
 date: 2022-05-11T17:42:15-04:00
 lastmod: 2022-05-11T17:42:15-04:00
 draft: false
+weight: 120
 ---
 
-![High-level diagram of the CURE approach](/about/cureapproach.png)
+<!-- ![High-level diagram of the CURE approach](/about/cureapproach.png) -->
+
+<img src="/about/cureapproach.png" alt="High-level diagram of the CURE approach">
 
 ### CURE is more than data curation
 
@@ -18,4 +21,5 @@ The research compendium is a file bundle that contains the data, code, documenta
 
 ### CURE demands a series of rigorous curation activities
 
-CURE practices can ensure that the research compendium and its component objects align with prevailing prevailing community standards for digital archiving and preservation and support the FAIR principles to create a complete and reproducible scholarly record.  CURE is based on the [Data Quality Review Framework](/dqr), which describes a comprehensive set of curation actions not only for file, document, and data review, but also for code review.
+CURE practices can ensure that the research compendium and its component objects align with prevailing prevailing community standards for digital archiving and preservation and support the FAIR principles to create a complete and reproducible scholarly record.
+CURE is based on the [Data Quality Review Framework](/resources/dqr), which describes a comprehensive set of curation actions not only for file, document, and data review, but also for code review.

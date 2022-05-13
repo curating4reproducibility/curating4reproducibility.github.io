@@ -1,26 +1,33 @@
 [[main]]
   name = "About"
-  weight = 10
+  weight = 100
   identifier = "about"
   url = "/about/"
 
 [[main]]
-  name = "The CURE Approach"
-  weight = 11
+  name = "People"
+  weight = 110
+  identifier = "people"
+  url = "/about/people/"
+  parent = "about"
+
+[[main]]
+  name = "The CuRe Approach"
+  weight = 120
   identifier = "approach"
   url = "/about/approach/"
-  parent= "about"
+  parent = "about"
 
 [[main]]
   name = "Community"
-  weight = 12
+  weight = 130
   identifier = "community"
   url = "/about/community/"
   parent= "about"
 
 [[main]]
   name = "Annual Report"
-  weight = 13
+  weight = 140
   identifier = "report"
   url = "/about/report/"
   parent= "about"
@@ -28,58 +35,58 @@
 [[main]]
   name = "News"
   url = "/news/"
-  weight = 20
+  weight = 200
 
 [[main]]
   name = "Resources"
-  weight = 30
+  weight = 300
   identifier = "resources"
   url = "/resources/"
 
 [[main]]
   name = "Data Quality Review"
-  weight = 31
+  weight = 310
   identifier = "dqr"
   url = "/resources/dqr/"
   parent = "resources"
 
 [[main]]
   name = "CURE Training"
-  weight = 32
+  weight = 320
   identifier = "training"
   url = "/resources/training/"
   parent = "resources"
 
 [[main]]
   name = "CURE Outputs"
-  weight = 33
+  weight = 330
   identifier = "outputs"
   url = "/resources/outputs/"
   parent = "resources"
 
 [[main]]
   name = "Resource Library"
-  weight = 34
+  weight = 340
   identifier = "library"
   url = "/resources/library/"
   parent = "resources"
 
 [[main]]
   name = "10 Things"
-  weight = 40
+  weight = 400
   identifier = "10things"
   url = "/docs/prologue/quick-start/"
 
 [[main]]
   name = "Contact"
-  weight = 50
+  weight = 500
   identifier = "contact"
   url = "/contact/"
 
 [[social]]
   name = "GitHub"
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"
-  url = "https://github.com/curating4reproducibility.org/curating4reproducibility.github.io"
+  url = "https://github.com/curating4reproducibility"
   post = "v0.1.0"
   weight = 10
 

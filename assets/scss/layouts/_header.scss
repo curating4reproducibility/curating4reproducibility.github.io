@@ -33,7 +33,9 @@
 .navbar {
   z-index: 1000;
   background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 1px solid;// $gray-200;
+  border-image-source: linear-gradient(90deg, $cornell, $carolina 50%, $yale);
+  border-image-slice: 1;
 
   /*
   margin-top: 4px;
@@ -62,6 +64,10 @@
 
 .nav-item {
   margin-left: 0;
+}
+
+a.nav-link {
+  display: inline-block;
 }
 
 @include media-breakpoint-up(md) {
@@ -106,7 +112,9 @@ button#doks-versions {
 
 .doks-subnavbar {
   background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 1px solid;// $gray-200;
+  border-image-source: linear-gradient(90deg, $cornell, $carolina 50%, $yale);
+  border-image-slice: 1;
 }
 
 .doks-subnavbar .nav-link {
@@ -136,7 +144,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, $yale, $carolina 50%, $cornell);
+  border-image-source: linear-gradient(90deg, $cornell, $carolina 50%, $yale);
   border-image-slice: 1;
 }
 
