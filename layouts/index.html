@@ -2,10 +2,10 @@
   {{ with .Params.landing }}
     {{ $landing := . }}
       <section class="section container-fluid mt-n3 pb-3">
-        <div class="row justify-content-center">
+        <div class="row justify-content-left">
           {{ with .image }}
             {{ $image := . }}
-            <div class="col-lg-{{ .colwidth | default 3 }} text-{{ .align | default "center" }}">
+            <div class="col-lg-{{ .colwidth | default 3 }} text-{{ .align | default "left" }}">
               <img src="{{ .src }}" alt="{{ .alt }}"><br><br>
             </div>
           {{ end }}
