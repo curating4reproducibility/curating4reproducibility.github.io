@@ -6,6 +6,7 @@ weight: 110
 ---
 
 #### Founding Members
+
 [**Florio Arguillas**](https://data.research.cornell.edu/content/florio-arguillas)<br>
 Research Associate<br>
 Cornell Center for Social Sciences<br>
@@ -22,6 +23,7 @@ Institution for Social and Policy Studies<br>
 Yale University
 
 #### CURE Fellows
+
 [**Olivia Given Castello**](https://guides.temple.edu/prf.php?account_id=163320)<br>
 Head of Business, Social Sciences, and Education<br>
 Temple University Libraries
@@ -35,6 +37,7 @@ Engineering Liaison and Data Curation Librarian<br>
 University of Minnesota Libraries
 
 #### Advisory Group
+
 [**Jacob Carlson**](https://www.lib.umich.edu/users/jakecar)<br>
 Director, Deep Blue Repository and Research Data Services<br>
 University of Michigan Library
@@ -51,7 +54,7 @@ Consultant and Strategic Analyst
 [**Sarah Jones**](https://www.eoscsecretariat.eu/eb-profiles/sarah-jones-0)<br>
 EOSC Engagement Manager<br>
 GÉANT
-
+                                                          
 [**Jared Lyle**](https://www.icpsr.umich.edu/web/pages/about/staff-profile.html?node=1737)<br>
 Archivist and Director of Metadata and Preservation<br>
 Director, DDI Alliance<br>
