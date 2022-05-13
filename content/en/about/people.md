@@ -54,7 +54,7 @@ Consultant and Strategic Analyst
 [**Sarah Jones**](https://www.eoscsecretariat.eu/eb-profiles/sarah-jones-0)<br>
 EOSC Engagement Manager<br>
 GÉANT
-                                                          
+
 [**Jared Lyle**](https://www.icpsr.umich.edu/web/pages/about/staff-profile.html?node=1737)<br>
 Archivist and Director of Metadata and Preservation<br>
 Director, DDI Alliance<br>
