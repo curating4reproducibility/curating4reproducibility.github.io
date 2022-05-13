@@ -6,9 +6,12 @@ landing:
   image:
     src: "cure-logo.png"
     alt: "CURE logo"
+    width: 3
   title:
     text: "Curating research artifacts to support scientific integrity."
+    width: 9
   body:
+    width: 12
     description: "The CUrating for REproducibility (CuRe) Consortium supports curation of research data and review of code and associated digital scholarly objects for the purpose of facilitating the digital preservation of the evidence-base necessary for future understanding, evaluation, and reproducibility of scientific claims."
 sections:
   - type: card
