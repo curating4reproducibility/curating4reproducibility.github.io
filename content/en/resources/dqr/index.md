@@ -34,11 +34,10 @@ __An inspection of the research compendium and its contents ensures that the com
 
 __Documentation must be sufficient enough that an individual other than the original investigator can understand and repeat the analytical workflow.__
 
-- Confirm that the README file contains a complete list of compendium files. 
+- Confirm that the README file contains a complete list of compendium files.
 - Compare the data dictionary/codebook to its correponding dataset to ensure that all variables and values are defined.
 - Verify that documentation includes all necessary information to re-execute the computational workflow.
 {{< /details >}}
-
 
 {{< details "Data Review" >}}
 
@@ -58,7 +57,7 @@ __A close examination of data files is necessary for identifying and addressing 
 
 __Confirmation of the computational reproducibility of reported findings requires inspection and successful execution of the analysis code.__
 
-- Confirm that the code includes scripts for loading necessary packages. 
+- Confirm that the code includes scripts for loading necessary packages.
 - Review the code for the presence of non-executable code comments that explain the function of scripts and correspondence to manuscript tables and figures.
 - Compile and run the code to verify error-free execution.
 - Compare code outputs to results presented in tables, figures, and in-line text.
