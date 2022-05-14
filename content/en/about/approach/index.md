@@ -9,7 +9,7 @@ weight: 120
 
 <!-- ![High-level diagram of the CURE approach](/about/cureapproach.png) -->
 
-<img src="/about/cureapproach.png" alt="High-level diagram of the CURE approach">
+<img src="cureapproach.png" alt="High-level diagram of the CURE approach">
 
 ### CURE is more than data curation
 
