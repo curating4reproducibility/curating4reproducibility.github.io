@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.37570618"
-     inkscape:cx="1735.3904"
+     inkscape:cx="1787.2387"
      inkscape:cy="402.70236"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1011"
+     inkscape:current-layer="g900"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -75,7 +75,7 @@
            id="g900"
            transform="translate(-17.330068,-22.39141)">
           <rect
-             style="color:#000000;overflow:visible;fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
+             style="color:#000000;overflow:visible;fill:#4b9cd3;fill-opacity:1;stroke:#4b9cd3;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
              id="rect833"
              width="100"
              height="100"
@@ -89,7 +89,7 @@
              x="117.40757"
              y="22.46891" />
           <rect
-             style="color:#000000;overflow:visible;fill:#4b9cd3;fill-opacity:1;stroke:#4b9cd3;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
+             style="color:#000000;overflow:visible;fill:#00356b;fill-opacity:1;stroke:#00356b;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
              id="rect833-3-6"
              width="100"
              height="100"
@@ -97,7 +97,7 @@
              y="122.46891" />
         </g>
         <rect
-           style="color:#000000;overflow:visible;fill:#00356b;fill-opacity:1;stroke:#00356b;stroke-width:0.155;stroke-miterlimit:6.2;stroke-dasharray:none;stroke-opacity:1"
+           style="color:#000000;overflow:visible;fill:#999999;fill-opacity:1;stroke:#00356b;stroke-width:0.155;stroke-miterlimit:6.2;stroke-dasharray:none;stroke-opacity:1"
            id="rect833-3-6-7"
            width="150"
            height="150"
