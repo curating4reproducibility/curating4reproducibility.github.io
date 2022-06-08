@@ -5,29 +5,15 @@
   url = "/about/"
 
 [[main]]
-  name = "People"
-  weight = 110
-  identifier = "people"
-  url = "/about/people/"
-  parent = "about"
-
-[[main]]
-  name = "The CuRe Approach"
-  weight = 120
-  identifier = "approach"
-  url = "/about/approach/"
-  parent = "about"
-
-[[main]]
   name = "Community"
-  weight = 130
+  weight = 110
   identifier = "community"
   url = "/about/community/"
   parent= "about"
 
 [[main]]
   name = "Annual Report"
-  weight = 140
+  weight = 120
   identifier = "report"
   url = "/about/report/"
   parent= "about"
@@ -38,39 +24,11 @@
   weight = 200
 
 [[main]]
-  name = "Resources"
-  weight = 300
-  identifier = "resources"
-  url = "/resources/"
-
-[[main]]
-  name = "Data Quality Review"
-  weight = 310
-  identifier = "dqr"
-  url = "/resources/dqr/"
-  parent = "resources"
-
-[[main]]
   name = "CURE Training"
-  weight = 320
+  weight = 300
   identifier = "training"
-  url = "/resources/training/"
-  parent = "resources"
-
-[[main]]
-  name = "CURE Outputs"
-  weight = 330
-  identifier = "outputs"
-  url = "/resources/outputs/"
-  parent = "resources"
-
-[[main]]
-  name = "Resource Library"
-  weight = 340
-  identifier = "library"
-  url = "/resources/library/"
-  parent = "resources"
-
+  url = "/training/"
+  
 [[main]]
   name = "10 Things"
   weight = 400
@@ -78,8 +36,35 @@
   url = "/docs/prologue/quick-start/"
 
 [[main]]
-  name = "Contact"
+  name = "Resources"
   weight = 500
+  identifier = "resources"
+  url = "/resources/"
+
+[[main]]
+  name = "Data Quality Review"
+  weight = 510
+  identifier = "dqr"
+  url = "/resources/dqr/"
+  parent = "resources"
+
+[[main]]
+  name = "CURE Outputs"
+  weight = 520
+  identifier = "outputs"
+  url = "/resources/outputs/"
+  parent = "resources"
+
+[[main]]
+  name = "Resource Library"
+  weight = 530
+  identifier = "library"
+  url = "/resources/library/"
+  parent = "resources"
+
+[[main]]
+  name = "Contact"
+  weight = 600
   identifier = "contact"
   url = "/contact/"
 
