@@ -2,9 +2,8 @@
 title: "Thing 1:  Completeness"
 description: "A research compendium contains all of the objects required to reproduce a predefined output."
 draft: false
-weight: 10
-enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+weight: 30
+toc: true
 ---
 **Related FAIR Principles: [R1](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/), [R1.2](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/), [R1.3](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)**
 

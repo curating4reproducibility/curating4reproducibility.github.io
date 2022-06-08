@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="short_logo.svg">
+   sodipodi:docname="short_logo.svg"
+   inkscape:export-filename="/home/john/Workspace/cure-site/logos/short_logo.png"
+   inkscape:export-xdpi="35.759998"
+   inkscape:export-ydpi="35.759998">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,17 +27,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.37570618"
-     inkscape:cx="1503.4061"
+     inkscape:cx="357.98239"
      inkscape:cy="402.70236"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1011"
+     inkscape:current-layer="g900"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1043"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1533"
+     inkscape:window-height="991"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      fit-margin-top="1"
      fit-margin-left="1"
      fit-margin-right="1"
@@ -48,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -72,7 +75,7 @@
            id="g900"
            transform="translate(-17.330068,-22.39141)">
           <rect
-             style="color:#000000;overflow:visible;fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
+             style="color:#000000;overflow:visible;fill:#4b9cd3;fill-opacity:1;stroke:#4b9cd3;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
              id="rect833"
              width="100"
              height="100"
@@ -86,7 +89,7 @@
              x="117.40757"
              y="22.46891" />
           <rect
-             style="color:#000000;overflow:visible;fill:#4b9cd3;fill-opacity:1;stroke:#4b9cd3;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
+             style="color:#000000;overflow:visible;fill:#00356b;fill-opacity:1;stroke:#00356b;stroke-width:0.155;stroke-miterlimit:6.2;stroke-opacity:1"
              id="rect833-3-6"
              width="100"
              height="100"
@@ -94,7 +97,7 @@
              y="122.46891" />
         </g>
         <rect
-           style="color:#000000;overflow:visible;fill:#00356b;fill-opacity:1;stroke:#00356b;stroke-width:0.155;stroke-miterlimit:6.2;stroke-dasharray:none;stroke-opacity:1"
+           style="color:#000000;overflow:visible;fill:#999999;fill-opacity:1;stroke:#00356b;stroke-width:0.155;stroke-miterlimit:6.2;stroke-dasharray:none;stroke-opacity:1"
            id="rect833-3-6-7"
            width="150"
            height="150"

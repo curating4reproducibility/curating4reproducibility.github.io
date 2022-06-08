@@ -33,7 +33,7 @@
   name = "10 Things"
   weight = 400
   identifier = "10things"
-  url = "/docs/prologue/quick-start/"
+  url = "/10things/"
 
 [[main]]
   name = "Resources"
