@@ -29,4 +29,3 @@ weight: 100
 ## A header goes here
 
 Text goes here
-

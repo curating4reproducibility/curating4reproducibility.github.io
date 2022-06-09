@@ -20,8 +20,8 @@ In addition to physical and legal access to the compendium, access is concerned 
 
 **Because the research compendium serves as the evidence-base for published findings, enabling others to access it with minimal physical, legal, and technical barriers is essential for supporting and promoting computational reproducibility.**
 
-
 {{< details "Get Started" >}}
+
 ### Physical access
 
 Access to the compendium and its components is best preserved when placed in a trustworthy repository. When considering physical access to a compendium, address the following questions:
@@ -55,7 +55,8 @@ As much as possible, the technology (i.e., hardware and software) required to re
 {{< details "Learn More" >}}
 The resources below offer a closer look at mechanisms for supporting physical, legal, and technical access to research compendium files as a means of promoting research reproducibility.
 
-### Trustworthy repositories 
+### Trustworthy repositories
+
 A trustworthy repository has provisions in place to ensure the long-term discoverability, accessibility, and usability of research artifacts. Read more about the criteria repositories must meet to be considered trustworthy, and how to select a repository best suited for the types of materials contained in the compendium:
 
 - **Lin, D., Crabtree, J., Dillo, I., Downs, R. R., Edmunds, R., Giaretta, D., De Giusti, M., L’Hours, H., Hugo, W., Jenkyns, R., Khodiyar, V., Martone, M. E., Mokrane, M., Navale, V., Petters, J., Sierman, B., Sokolova, D. V., Stockhause, M., & Westbrook, J. (2020). The TRUST Principles for digital repositories. *Scientific Data, 7*(1), 144. [https://doi.org/10.1038/s41597-020-0486-7](https://doi.org/10.1038/s41597-020-0486-7)**<br>
@@ -87,7 +88,7 @@ This guide breaks down the practical aspects of licensing data and legal intelle
 - **Morin, A., Urban, J., & Sliz, P. (2012). A quick guide to software licensing for the scientist-programmer. *PLoS Computational Biology, 8*(7), e1002598. [https://doi.org/10.1371/journal.pcbi.1002598](https://doi.org/10.1371/journal.pcbi.1002598)**<br>
 This article covers information on software licensing and considerations when choosing a software license.
 - **Hrynaszkiewicz, I., Busch, S., & Cockerill, M. J. (2013). Licensing the future: Report on BioMed Central’s public consultation on open data in peer-reviewed journals. *BMC Research Notes, 6*(318). [https://doi.org/10.1186/1756-0500-6-318](https://doi.org/10.1186/1756-0500-6-318)**<br>
-This article provides responses to common questions about open licenses for data based on BioMed Central’s public consultation on Open Data. 
+This article provides responses to common questions about open licenses for data based on BioMed Central’s public consultation on Open Data.
 
 It is important to understand the differences among various standard licenses to be able to determine which is most appropriate for the specific type of research artifact to be made publicly available. Below are resources and tools to help with license selection.
 
@@ -113,6 +114,7 @@ The Library of Congress maintains a recommended formats statement that outlines 
 {{< /details >}}
 
 {{< details "Go Deeper" >}}
+
 ### Open Science
 
 Public access to research artifacts is a cornerstone of Open Science. Learn more about the Open Science movement to situate knowledge and knowledge-making processes in the public domain.

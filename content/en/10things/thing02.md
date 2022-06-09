@@ -2,7 +2,7 @@
 title: "Thing 2: Organization"
 description: "It is easy to understand and keep track of the various objects in the research compendium and their relationship over time."
 draft: false
-weight: 40
+weight: 20
 toc: true
 ---
 **Related FAIR Principles: [F2](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/), [I3](https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/), [R1.3](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)**
@@ -12,7 +12,6 @@ toc: true
 As research projects progress, they often evolve and things get more complicated and opaque over time; memory fails; project team members move on to new ventures. It is difficult to predict what may happen with a project down the line, so it is important to properly organize a compendium throughout the project itself.
 
 **Organization is necessary to understand and to keep track of the various artifacts in the research compendium and the relationships among them over time.**
-
 
 {{< details "Get Started" >}}
 The organization of a research compendium depends on the types of files, their relationship to one another, as well as their interactions within the computational workflow. There is not a single, prescribed way for organizing research artifacts; however, these are some questions to consider as a project is being organized within a compendium:
@@ -58,7 +57,7 @@ In some disciplines, journals require archiving the full compendium in specific 
 
 {{< details "Go Deeper" >}}
 A variety of tips, guidance, and online modules have been developed for further training on organization geared towards curation and reproducibility. Here are a few more resources to explore to go deeper:
- 
+
 - **University of Illinois at Urbana-Champaign Research Data Services. Data Nudges**<br>
 [https://emails.illinois.edu/newsletter/158822.html](https://emails.illinois.edu/newsletter/158822.html)<br>
 This Data Nudge recommends tips for file naming and outlines known issues with using special characters in naming conventions. [Data Nudge #2,2017](https://emails.illinois.edu/newsletter/160474.html) highlights useful elements when crafting a file naming convention.

@@ -14,7 +14,6 @@ When curating a reproducible file bundle, consider any extraneous parts that can
 
 **Economizing everything means fewer research objects can break while also requiring less care and maintenance over time.**
 
-
 {{< details "Get Started" >}}
 Simplifying and commenting out code are a couple of methods for tackling economization; however, the approach may vary depending on the type of software or methods being used for analysis. During file review and/or curation, here are some questions to consider:
 
@@ -48,5 +47,5 @@ As mentioned previously, the approach to economizing code is dependent upon many
 
 There are also tools available to assist with cleaning code. For example:
 
--  **ROpenSci. (n.d.). *A tool for writing cleaner, more transparent code*. Retrieved December 15, 2021, from [https://docs.ropensci.org/Rclean/](https://docs.ropensci.org/Rclean/)**
+- **ROpenSci. (n.d.). *A tool for writing cleaner, more transparent code*. Retrieved December 15, 2021, from [https://docs.ropensci.org/Rclean/](https://docs.ropensci.org/Rclean/)**
 {{< /details >}}

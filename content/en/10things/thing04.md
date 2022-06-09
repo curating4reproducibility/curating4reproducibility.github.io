@@ -16,7 +16,6 @@ The inability to reproduce results is often caused by missing or insufficient in
 
 **Transparency requires that details about how the data were captured and transformed, and how they were analyzed to produce published results are included in the research compendium.**
 
-
 {{< details "Get Started" >}}
 Think about a re-user of the research compendium and the specific information they would need in order to re-execute the analysis to generate expected results. Consider the questions below for each key aspect of research transparency.
 
@@ -28,9 +27,10 @@ Access transparency requires that re-users of the research compendium are provid
 - For research that involves secondary analysis of extant data or uses existing code, are original sources cited with a persistent identifier or stable URL that resolves to the specific data files used in the analysis?
 
 ### Production transparency
+
 Production transparency is evident when details about the study design and research methods (e.g., sampling frameworks, response rates, validity testing) are clearly articulated.
 
-- Are key aspects of the research design and analytic methods disclosed to allow for understanding and evaluation of the research process? 
+- Are key aspects of the research design and analytic methods disclosed to allow for understanding and evaluation of the research process?
 - Is information on how data were selected, captured, transformed, and analyzed provided in adequate detail to understand the choices made and steps taken by the researcher?
 
 ### Analytic Transparency

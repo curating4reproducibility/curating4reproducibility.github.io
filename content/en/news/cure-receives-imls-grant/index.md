@@ -18,10 +18,10 @@ From the grant abstract:
 
 * * *
 
-![](imls_logo_2c.jpg)
+![IMLS Logo](imls_logo_2c.jpg "")
 
-The Institute of Museum and Library Services (IMLS) is celebrating its 20th Anniversary. 
-The Institute of Museum and Library Services is the primary source of federal support for the nation’s approximately [123,000 libraries](http://www.ala.org/tools/libfactsheets/alalibraryfactsheet01) and [35,000 museums](https://www.imls.gov/research-evaluation/data-collection/museum-universe-data-file). 
-Our mission is to inspire libraries and museums to advance innovation, lifelong learning, and cultural and civic engagement. 
-Our grant making, policy development, and research help libraries and museums deliver valuable services that make it possible for communities and individuals to thrive. 
+> _The Institute of Museum and Library Services (IMLS) is celebrating its 20th Anniversary.
+The Institute of Museum and Library Services is the primary source of federal support for the nation’s approximately [123,000 libraries](http://www.ala.org/tools/libfactsheets/alalibraryfactsheet01) and [35,000 museums](https://www.imls.gov/research-evaluation/data-collection/museum-universe-data-file).
+Our mission is to inspire libraries and museums to advance innovation, lifelong learning, and cultural and civic engagement.
+Our grant making, policy development, and research help libraries and museums deliver valuable services that make it possible for communities and individuals to thrive.
 To learn more, visit [www.imls.gov](https://www.imls.gov/) and follow us on [Facebook](https://www.facebook.com/USIMLS), [Twitter](https://twitter.com/us_imls) and [Instagram](https://www.instagram.com/us_imls/)._

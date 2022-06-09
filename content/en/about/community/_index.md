@@ -14,14 +14,14 @@ sections:
     cards:
       - subtitle: "Florio Arguillas"
         url: "https://data.research.cornell.edu/content/florio-arguillas"
-        image: 
+        image:
           src: "farguillas.png"
           alt: "Florio Arguillas image"
           style: "round"
         description: "**Research Associate**<br>Cornell Center for Social Sciences<br>Cornell University"
       - subtitle: "Thu-Mai Christian"
         url: "https://odum.unc.edu/people/christian/"
-        image: 
+        image:
           src: "tchristian.jpg"
           alt: "Thu-Mai Christian image"
           style: "round"
@@ -29,7 +29,7 @@ sections:
       - subtitle: "Limor Peer"
         url: "https://isps.yale.edu/team/limor-peer"
         description: "**Associate Director for Research and Strategic Initiatives**<br>Institution for Social and Policy Studies<br>Yale University"
-        image: 
+        image:
           src: "lpeer.png"
           alt: "Limor Peer image"
           style: "round"

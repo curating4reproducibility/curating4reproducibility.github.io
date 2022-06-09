@@ -8,7 +8,7 @@ tags: ["news"]
 contributors: ["Staff"]
 ---
 
-The CURE team will be hosting a half-day workshop at the [13th International Digital Curation Conference (IDCC)](http://www.dcc.ac.uk/events/idcc18) in Barcelona on February 19, 2018 from 9:30 to 12:30. 
+The CURE team will be hosting a half-day workshop at the [13th International Digital Curation Conference (IDCC)](http://www.dcc.ac.uk/events/idcc18) in Barcelona on February 19, 2018 from 9:30 to 12:30.
 
 The workshop, "**Curating for Reproducibility: Producing High Quality Data and Code for Transparent and Reproducible Research**," will teach participants practical strategies for curating research materials to support reproducible science.
 

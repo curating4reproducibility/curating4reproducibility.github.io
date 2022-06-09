@@ -2,7 +2,7 @@
 title: "Introduction"
 description: "Introduction to the 10 Things for Curating Reproducible and FAIR Research"
 draft: false
-weight: 20
+weight: 5
 toc: true
 ---
 Computational reproducibility is defined as the ability to obtain consistent computational results using the same input data, computational steps, methods, code, and analysis conditions as those used in the original study. Computational reproducibility is a means of making scientific claims more transparent. It is imperative for verifying and building upon reported findings, preserving a complete scientific record, and enhancing pedagogical strategies for research methods training. For various reasons, the computational reproducibility standard has not been adopted as an integral part of normative scientific practice.

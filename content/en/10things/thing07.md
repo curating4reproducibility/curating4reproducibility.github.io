@@ -3,11 +3,10 @@ title: "Thing 7: Provenance"
 description: "The origin of the components of the research compendium and how each has changed over time is evident. "
 draft: false
 weight: 70
-enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+toc: true
 ---
 
-**Related FAIR Guiding Principle: [R1.2]()**
+**Related FAIR Guiding Principle: [R1.2](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/)**
 
 **[Related FAIR4RS Guiding Principle](https://doi.org/10.15497/RDA00068): R1.2**
 
@@ -25,7 +24,6 @@ Applies to **data, code, and computation**.
 - Provenance of the research workflow that produced the outputs including scripts or representations in a formal workflow language such as the [Common Workflow Language](https://www.commonwl.org/user_guide/) or similar, and a history of changes to these.
 - Workflow systems such as [Kepler](https://code.kepler-project.org/code/kepler/trunk/modules/provenance/docs/provenance.pdf), [Galaxy](https://docs.galaxyproject.org/en/master/api/api.html#module-galaxy.webapps.galaxy.api.provenance), [Taverna](http://www.taverna.org.uk/documentation/taverna-2-x/provenance/), [NextFlow](https://www.nextflow.io/blog/2019/easy-provenance-report.html) or [SnakeMake](https://snakemake.readthedocs.io/en/stable/snakefiles/reporting.html) can make it easier to capture provenance but require you to bring experiments or analysis into these systems prior to curation. “Code aware” data management/versioning systems such as [DataLad](https://www.datalad.org/) (or the many tools and platforms used in MLOps) are another option. Care needs to be taken in making a choice of system, that provenance records in a useful form can be
 extracted for the target archive. See also [Thing 9: Automation](../thing09).
-
 
 {{< details "Get Started" >}}
 Formal, machine-readable capture of provenance can be quite daunting for a newcomer, and for manually curated materials, can be quite time consuming. To get started, focus less on formal capture, and more on what the relevant categories of provenance detail are in your context. Think about protocols or processes to ensure that this detail continues to be captured thereafter. This includes:

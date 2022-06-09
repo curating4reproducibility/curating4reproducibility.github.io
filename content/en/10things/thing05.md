@@ -15,7 +15,6 @@ documentation that captures important details of the research process so that ot
 
 **Robust documentation is the outcome of an intentional practice that keeps in mind the information needs of the compendium re-user so that the research compendium and the materials contained within it are *independently understandable for informed reuse*.**
 
-
 {{< details "Get Started" >}}
 Documentation can take on various forms. Common examples are README files, data availability statements, data dictionaries or codebooks, and code headers and non-executable comments. However the information about compendium components and the analysis workflow is presented, reproducibility relies on the presence of robust documentation that assumes no prior knowledge of the research process, thereby making the tacit more explicit.
 

@@ -2,11 +2,10 @@
 title: "Overview"
 description:
 draft: false
-weight: 010
 menu:
   10things:
     parent: "overview"
-weight: 010
+weight: 1
 toc: true
 ---
 We have followed the approach taken by several groups to create a list of “Things” that can serve as stand-alone guides for self-directed inquiry (e.g., Library Carpentry and collaborators’ [Top 10 FAIR Data & Software Things](https://librarycarpentry.org/Top-10-FAIR/); Australian Research Data Commons’ [23 (research data) things](https://au-research.github.io/ARDC-23-things/); Griffith University Library and eResearch Services’ [Reproducible-Research-Things](https://guereslib.github.io/Reproducible-Research-Things/); Briney et al. [Foundational Practices of Research Data Management](https://doi.org/10.3897/rio.6.e56508)).

@@ -1,8 +1,8 @@
 ---
-title: "Thing 1:  Completeness"
+title: "Thing 1: Completeness"
 description: "The research compendium contains all of the objects required to reproduce a predefined output."
 draft: false
-weight: 30
+weight: 10
 toc: true
 ---
 **Related FAIR Principles: [R1](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/), [R1.2](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/), [R1.3](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)**
@@ -14,7 +14,6 @@ A [research compendium](https://biostats.bepress.com/bioconductor/paper2/) conta
 When curation includes reproducing scientific claims or findings, you will need to check that all of the requisite objects and information are included in the research compendium. This often includes data, code, outputs, a codebook or data dictionary, and supporting documentation.
 
 **Completeness ensures re-users of the research compendium are well-informed and have the context necessary to reproduce the results without needing to contact the original producer or track down missing components.**
-
 
 {{< details "Get Started" >}}
 
