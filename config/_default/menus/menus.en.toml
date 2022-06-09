@@ -63,6 +63,13 @@
   parent = "resources"
 
 [[main]]
+  name = "OSF"
+  weight = 550
+  identifier = "osf"
+  url = "https://osf.io/3wkex/"
+  parent = "resources"
+
+[[main]]
   name = "Contact"
   weight = 600
   identifier = "contact"
