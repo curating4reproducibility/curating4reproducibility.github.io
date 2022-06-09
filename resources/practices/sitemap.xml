@@ -2,15 +2,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>curating4reproducibility.org/resources/practices/models/</loc>
-      <lastmod>2022-06-09T18:45:26-04:00</lastmod>
+      <loc>/resources/practices/models/</loc>
+      <lastmod>2022-06-09T18:48:43-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>curating4reproducibility.org/resources/practices/directory/</loc>
-      <lastmod>2022-06-09T18:45:26-04:00</lastmod>
+      <loc>/resources/practices/directory/</loc>
+      <lastmod>2022-06-09T18:48:43-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>

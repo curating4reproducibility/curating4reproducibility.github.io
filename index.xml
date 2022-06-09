@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CUrating for REproducibility on </title>
-    <link>curating4reproducibility.org/</link>
+    <link>/</link>
     <description>Recent content in CUrating for REproducibility on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 May 2022 17:30:00 +0000</lastBuildDate>
     
-        <atom:link href="curating4reproducibility.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CURE Resources</title>
-      <link>curating4reproducibility.org/resources/</link>
+      <link>/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>curating4reproducibility.org/resources/</guid>
+      <guid>/resources/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CURE Consortium</title>
-      <link>curating4reproducibility.org/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 12 May 2022 18:55:20 -0400</pubDate>
       
-      <guid>curating4reproducibility.org/about/</guid>
+      <guid>/about/</guid>
       <description>A header goes here # Text goes here</description>
     </item>
     
     <item>
       <title>Docs</title>
-      <link>curating4reproducibility.org/docs/</link>
+      <link>/docs/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate>
       
-      <guid>curating4reproducibility.org/docs/</guid>
+      <guid>/docs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>curating4reproducibility.org/contact/</link>
+      <link>/contact/</link>
       <pubDate>Thu, 27 Aug 2020 19:25:12 +0200</pubDate>
       
-      <guid>curating4reproducibility.org/contact/</guid>
+      <guid>/contact/</guid>
       <description>user=&#34;hello&#34;,domain=&#34;getdoks.org&#34;,document.write(user+&#34;@&#34;+domain);hello at getdoks.org </description>
     </item>
     
     <item>
       <title>10 Things for Curating Reproducible and FAIR Research</title>
-      <link>curating4reproducibility.org/10things/</link>
+      <link>/10things/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>curating4reproducibility.org/10things/</guid>
+      <guid>/10things/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>curating4reproducibility.org/news/</link>
+      <link>/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>curating4reproducibility.org/news/</guid>
+      <guid>/news/</guid>
       <description></description>
     </item>
     
