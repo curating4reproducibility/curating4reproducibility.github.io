@@ -7,7 +7,7 @@ title: "CURE Consortium"
 description: "About the CURE consortium"
 width: 12
 align: left
-#layout: landing
+layout: landing
 landing:
   body:
     align: left
