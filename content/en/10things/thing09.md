@@ -5,14 +5,13 @@ draft: false
 weight: 90
 toc: true
 ---
-**Related FAIR Principle: [Reusable]()**
+**Related FAIR Principle: [Reusable](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)**
 
 **[Related FAIR4RS Principle](https://doi.org/10.15497/RDA00068): Reusability**
 
 **Automation refers to a process, for example, computation, transformation, or curation, that makes computational reproduction efficient and minimizes, if not eliminates, human intervention in reproducing research. Automation goes beyond documentation to avoid the need to manually set up processes (e.g., installing software, setting up the compute environment).**
 
 There are many opportunities to automate aspects of the research process at various points during data handling and computation.
-
 
 {{< details "Get Started" >}}
 Automation means that information about the computational steps throughout the research process is script- or workflow-based, and manual processes are avoided to the fullest extent possible.
@@ -32,6 +31,7 @@ The main steps in a project should be encoded in software and documented so they
 {{< /details >}}
 
 {{< details "Learn More" >}}
+
 ### Relative paths (versus absolute paths)
 
 High quality code can help with automation. A key example is how input data are called.
@@ -58,6 +58,7 @@ A common approach to making it easier to rerun code is to do the computation on 
 {{< /details >}}
 
 {{< details "Go Deeper" >}}
+
 ### Fifteen (15) Code Review Things
 
 This is a list of 15 code review-related tasks that help improve the quality and efficiency, automation of verification, reproducibility package preparation, and reuse.
