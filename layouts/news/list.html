@@ -14,10 +14,12 @@
 							{{ partial "main/blog-meta.html" . -}}
 						</div>
 					</div>
+          <br>
 				{{ end -}}
 				{{ $.Scratch.Set "paginator" true }}
 				{{ template "_internal/pagination.html" . }}
 			</div>
+      <br><br>
     </article>
   </div>
 </div>
