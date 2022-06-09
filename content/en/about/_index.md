@@ -5,13 +5,15 @@ draft: false
 images: []
 title: "CURE Consortium"
 description: "About the CURE consortium"
-layout: landing-list
+layout: landing
 landing:
   body:
+    align: left
     description: "**The Curating for Reproducibility Consortium was established to promote curation practices that ensure that research compendia and their component artifacts constitute a complete and reproducible scholarly record. Our goal is to establish standards, share practices, and promote the [Data Quality Review](dqr) framework for rigorous curation workflows that support computational reproducibility of published scientific findings.**"
 sections:
   - type: card
     width: 6
+    align: left
     cards:
       - subtitle: "Establishing Standards"
         description: "Building on existing and evolving standards, CURE is dedicated to establishing and communicating the driving principles and criteria for proper curation for reproducibility."
@@ -19,8 +21,10 @@ sections:
         description: "Curating for reproducibility involves multiple tasks and several stakeholders. A primary goal of CURE is to map the vital elements of the workflow, and to share the best practices that have emerged within each organization."
       - subtitle: "Promoting Data Quality Review"
         description: "CURE members believe that pre-publication data quality review is essential for the progression of science and preservation of knowledge."
-linkblockwidth: 4
-listview: false
-listtitle: "Read more about CURE:"
 weight: 100
 ---
+
+## A header goes here
+
+Text goes here
+

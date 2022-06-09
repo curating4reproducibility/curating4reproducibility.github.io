@@ -10,13 +10,13 @@
           {{ end }}
           {{ with .title }}
             {{ $title := . }}
-            <div class="col-lg-{{ .colwidth | default 9 }} text-{{ .align | default "left" }}">
+            <div class="col-lg-{{ .colwidth | default 9 }} text-{{ .align | default "center" }}">
             <h1 class="mt-0">{{ .text }}</h1>
           </div>
           {{ end }}
           {{ with .body }}
             {{ $body := . }}
-              <div class="col-lg-{{ .colwidth | default 12 }} col-xl-{{ .colwidth | default 12 }} text-{{ .align | default "left" }}">
+              <div class="col-lg-{{ .colwidth | default 12 }} col-xl-{{ .colwidth | default 12 }} text-{{ .align | default "center" }}">
                 <p class="lead">
                   {{ .description | markdownify }}
                 </p>
