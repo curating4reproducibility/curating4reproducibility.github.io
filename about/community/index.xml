@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CURE Consortium on</title><link>https://curating4reproducibility.org/about/community/</link><description>Recent content in CURE Consortium on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://curating4reproducibility.org/about/community/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CURE Consortium on </title>
+    <link>curating4reproducibility.org/about/community/</link>
+    <description>Recent content in CURE Consortium on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="curating4reproducibility.org/about/community/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
