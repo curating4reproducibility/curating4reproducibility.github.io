@@ -16,7 +16,19 @@
                 {{ range . }} 
                   {{ $card := . }}
                     <div class="col-lg-{{ $section.width | default 5 }} text-{{ $section.align | default "center" }}">
-                      <h2 class="h4">{{ .subtitle }}</h2>
+                      <h2 class="h4">{{ if .url }}<a href="{{ .url }}" target="{{ if in .url "http" }}_blank{{ else }}_self{{ end }}">{{ .subtitle }}</a>{{ else }}{{ .subtitle }}{{ end }}</h2>
+                      {{ with .image }}
+                        {{ $image := . }}
+                        <!--  <div class="col-lg-{{ .colwidth | default 3 }} text-{{ .align | default "center" }}"> -->
+                          {{ if $card.url }}
+                            <a href="{{ $card.url }}" target="{{ if in $card.url "http" }}_blank{{ else }}_self{{ end }}">
+                          {{ end }}
+                          <img src="{{ .src }}" alt="{{ .alt }}"{{ if eq .style "round" }} style="border-radius: 50%"{{ end }}><br><br>
+                          {{ if $card.url }}
+                            </a>
+                          {{ end }}
+                          <!-- </div> -->
+                      {{ end }}
                       <p>{{ .description | markdownify }}</p>
                     </div>
                 {{ end }}

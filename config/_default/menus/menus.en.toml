@@ -5,15 +5,22 @@
   url = "/about/"
 
 [[main]]
-  name = "Community"
+  name = "Get Involved"
   weight = 110
+  identifier = "getinvolved"
+  url = "/about/getinvolved/"
+  parent= "about"
+
+[[main]]
+  name = "Community"
+  weight = 120
   identifier = "community"
   url = "/about/community/"
   parent= "about"
 
 [[main]]
   name = "Annual Report"
-  weight = 120
+  weight = 130
   identifier = "report"
   url = "/about/report/"
   parent= "about"
