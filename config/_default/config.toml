@@ -1,4 +1,5 @@
-#baseurl = "curating4reproducibility.org"
+baseURL = ""
+relativeURLs = true
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
