@@ -6,7 +6,7 @@ weight: 100
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
-**Related FAIR Principle: [Reusable]()**
+**Related FAIR Principle: [Reusable](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)**
 
 **[Related FAIR4RS Principle](https://doi.org/10.15497/RDA00068): Reusability**
 
@@ -15,7 +15,6 @@ Computational reproducibility is a particular type of Reuse. It refers to a user
 Curators helping prepare and review materials for archiving and publishing are often the “first reusers” of these materials.
 
 **A review is a series of managed activities that helps ensure continued access to and functionality of the research compendium and its components for as long as necessary.**
-
 
 {{< details "Get Started" >}}
 Sharing of data and code is increasingly encouraged or mandated by various stakeholders in the scientific landscape. The [OECD](https://doi.org/10.1787/947717bc-en) in 2020 notes that data and code are often required to achieve reproducibility of scientific results, a key goal: “sharing access to the data underpinning scientific publications allows peers to test and reproduce scientific results. In practice, data alone are often insufficient to test reproducibility, and enhanced access to analysis software is also necessary.”
@@ -67,7 +66,7 @@ Curators, data and information professionals, researchers and others all can con
 - Fifteen Code Review Things (see [Thing 9: Automation](../thing09))
 - [Cornell Center for Social Sciences R2](https://socialsciences.cornell.edu/research-support/R-squared) provides Reproduction Materials Review Recommendations
 
-**Tools.** There are also several tools for managing the review, verification, and curation process. For example, [Whole Tale](https://wholetale.org/index.html), [CODECHECK](https://codecheck.org.uk/guide/community-workflow), and [CASCaD](https://www.cascad.tech/) are options for general-purpose projects. See this conversation about solutions for reproducibility on the [Taking the Pulse blog](https://reproducibility.acm.org/2021/04/30/reproducibility-solutions-taking-the-pulse/). 
+**Tools.** There are also several tools for managing the review, verification, and curation process. For example, [Whole Tale](https://wholetale.org/index.html), [CODECHECK](https://codecheck.org.uk/guide/community-workflow), and [CASCaD](https://www.cascad.tech/) are options for general-purpose projects. See this conversation about solutions for reproducibility on the [Taking the Pulse blog](https://reproducibility.acm.org/2021/04/30/reproducibility-solutions-taking-the-pulse/).
 
 Some examples of domain-specific tools include,
 
@@ -116,7 +115,7 @@ Review is an integral aspect of the scientific process and an important aspect o
 
 Gold standard data review has been a province of data archives for a long time (e.g., Inter-university Consortium for Political and Social Research ([ICPSR](https://www.icpsr.umich.edu/web/pages/datamanagement/lifecycle/index.html)), [UK Data Archive](https://www.data-archive.ac.uk/managing-data/digital-curation-and-data-publishing/curation-process/)). Many of the curation practices common in such archives conforms to the FAIR principles for data.
 
-Recently, new platforms have been created to review and assess data and metadata specifically for “FAIRNESS” (e.g., FAIR Metadata Assessment tool is in development by [DataONE](https://www.dataone.org/fair/); [FAIR Evaluator](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd) developed by [FAIRsharing.org](https://fairsharing.org/); [F-UJI](https://www.f-uji.net/) developed by PANGAEA under the umbrella of the [FAIRsFAIR](https://www.fairsfair.eu/) project; [Australian Research Data Commons’](https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/) FAIR data self assessment tool). 
+Recently, new platforms have been created to review and assess data and metadata specifically for “FAIRNESS” (e.g., FAIR Metadata Assessment tool is in development by [DataONE](https://www.dataone.org/fair/); [FAIR Evaluator](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd) developed by [FAIRsharing.org](https://fairsharing.org/); [F-UJI](https://www.f-uji.net/) developed by PANGAEA under the umbrella of the [FAIRsFAIR](https://www.fairsfair.eu/) project; [Australian Research Data Commons’](https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/) FAIR data self assessment tool).
 
 Efforts have been made to apply FAIR to [research software](https://www.sciencedirect.com/science/article/pii/S2666389921000362).
 
@@ -181,6 +180,7 @@ Evaluated analytic reproducibility in 25 Psychological Science articles awarded 
 Found that when badges were earned, reportedly available data were more likely to be actually available, correct, usable, and complete than when badges were not earned. Badges are simple, effective signals to promote open practices and improve preservation of data and materials by using independent repositories.
 
 ### Active maintenance
+
 Confirming computational reproducibility at a single point in time is not a guarantee of long term reproducibility. While some aspects of curation are more or less “one and done” (e.g., assigning a persistent ID to a file, documenting a dataset), others call for repeated assessment. As a curator, you will need to perform periodic reviews, or ***maintenance***, ideally in a scheduled and automated way, and remediate if need be.
 
 The idea that digital curation is an ongoing activity, a “series of managed activities necessary to ensure continued access to digital materials for as long as necessary” is central to [digital preservation](https://www.dpconline.org/docs/digital-preservation-handbook/299-digital-preservation-handbook/file). It is reinforced in the foundational text that defines the FAIR principles: “Beyond proper collection, annotation, and archival, data stewardship includes the notion of ‘long-term care’ of valuable digital assets, with the goal that they should be discovered and re-used for downstream investigations, either alone, or in combination with newly generated data” ([Wilkinson et al., 2016](https://doi.org/10.1038/sdata.2016.18); Italics added).
