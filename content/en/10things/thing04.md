@@ -3,8 +3,7 @@ title: "Thing 4: Transparency"
 description: "The research compendium provides full disclosure of the research process that produced the scientific claim."
 draft: false
 weight: 40
-enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+toc: true
 ---
 **Related FAIR Principles: [I3](https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/), [R1](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/), [R1.2](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/), [R1.3](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)**
 

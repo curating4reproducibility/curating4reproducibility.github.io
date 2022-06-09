@@ -3,8 +3,7 @@ title: "Thing 5: Documentation"
 description: "Information describing compendium objects is provided in enough detail to enable independent understanding and use of the compendium."
 draft: false
 weight: 50
-enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+toc: true
 ---
 **Related FAIR Principles: [F2](https://www.go-fair.org/fair-principles/fair-data-principles-explained/f2-data-described-rich-metadata/), [R1](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/), [R1.2](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/), [R1.3](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)**
 

@@ -3,8 +3,7 @@ title: "Thing 3: Economy"
 description: "Fewer extraneous objects in the compendium mean fewer things that can break and require less maintenance over time."
 draft: false
 weight: 30
-enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+toc: true
 ---
 **Related FAIR Principles: [R1](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)**
 
