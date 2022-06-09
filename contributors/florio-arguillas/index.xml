@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Florio Arguillas on </title>
-    <link>/contributors/florio-arguillas/</link>
+    <link>https://curating4reproducibility.org/contributors/florio-arguillas/</link>
     <description>Recent content in Florio Arguillas on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 May 2017 17:03:30 +0000</lastBuildDate><atom:link href="/contributors/florio-arguillas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2017 17:03:30 +0000</lastBuildDate><atom:link href="https://curating4reproducibility.org/contributors/florio-arguillas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CURE Workshop at IASSIST 2017</title>
-      <link>/news/cure-workshop-at-iassist-2017/</link>
+      <link>https://curating4reproducibility.org/news/cure-workshop-at-iassist-2017/</link>
       <pubDate>Mon, 29 May 2017 17:03:30 +0000</pubDate>
       
-      <guid>/news/cure-workshop-at-iassist-2017/</guid>
+      <guid>https://curating4reproducibility.org/news/cure-workshop-at-iassist-2017/</guid>
       <description>Limor Peer, Thu-Mai Christian, Florio Arguillas, and Joshua Dull hosted a CURE workshop at the IASSIST 2017 conference in Lawrence, Kansas on May 23, 2017.
 The workshop titled, &amp;ldquo;Curating for Reproducibility: Why and How to Review Data and Code,&amp;rdquo; offered participants practical strategies for curating research materials for reproducibility through examples and hands-on activities.
 These strategies are based on the Data Quality Review, a framework for helping ensure that research data are well documented and usable and that code executes properly and reproduces analytic results.</description>
@@ -20,10 +20,10 @@ These strategies are based on the Data Quality Review, a framework for helping e
     
     <item>
       <title>CURE at IDCC17</title>
-      <link>/news/cure-at-idcc17/</link>
+      <link>https://curating4reproducibility.org/news/cure-at-idcc17/</link>
       <pubDate>Thu, 26 Jan 2017 18:47:53 +0000</pubDate>
       
-      <guid>/news/cure-at-idcc17/</guid>
+      <guid>https://curating4reproducibility.org/news/cure-at-idcc17/</guid>
       <description>Limor Peer and Florio Arguillas will be at the 12th International Digital Curation Conference in Edinburgh (February 20-23, 2017) to present a poster titled, The Curating for Reproducibility (CURE) Consortium, which describes CURE mission and goals.
 Stop by and learn more about how the founding members promote data quality review in their data curation workflows.
 Download poster

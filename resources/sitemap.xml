@@ -2,62 +2,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>/resources/standards/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/standards/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/resources/practices/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/practices/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/resources/tools/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/tools/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/resources/glossary/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/glossary/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/resources/bib/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/bib/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/resources/training/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/training/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/resources/dqr/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/resources/dqr/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>/resources/practices/models/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/resources/practices/models/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>/resources/practices/directory/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/resources/practices/directory/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>

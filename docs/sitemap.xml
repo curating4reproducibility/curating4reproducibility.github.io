@@ -2,51 +2,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>/docs/help/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/docs/help/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>/docs/prologue/</loc>
-      <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+      <loc>https://curating4reproducibility.org/docs/prologue/</loc>
+      <lastmod>2022-06-09T19:10:24-04:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>/docs/help/how-to-update/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/docs/help/how-to-update/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>/docs/help/troubleshooting/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/docs/help/troubleshooting/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>/docs/help/faq/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/docs/help/faq/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>/docs/prologue/introduction/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/docs/prologue/introduction/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>/docs/prologue/quick-start/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/docs/prologue/quick-start/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>/docs/prologue/commands/</loc>
-        <lastmod>2022-06-09T18:52:30-04:00</lastmod>
+        <loc>https://curating4reproducibility.org/docs/prologue/commands/</loc>
+        <lastmod>2022-06-09T19:10:24-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
