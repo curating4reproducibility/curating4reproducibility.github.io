@@ -1,5 +1,5 @@
 #baseURL = "https://curating4reproducibility.org"
-relativeURLs = true
+#relativeURLs = true
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
