@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Standards on </title>
-    <link>https://curating4reproducibility.org/resources/standards/</link>
+    <link>/resources/standards/</link>
     <description>Recent content in Standards on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://curating4reproducibility.org/resources/standards/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="/resources/standards/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>10 Things for Curating Reproducible and FAIR Research on </title>
-    <link>https://curating4reproducibility.org/10things/</link>
+    <link>/10things/</link>
     <description>Recent content in 10 Things for Curating Reproducible and FAIR Research on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://curating4reproducibility.org/10things/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="/10things/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
-      <link>https://curating4reproducibility.org/10things/overview/</link>
+      <link>/10things/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/overview/</guid>
+      <guid>/10things/overview/</guid>
       <description>We have followed the approach taken by several groups to create a list of “Things” that can serve as stand-alone guides for self-directed inquiry (e.g., Library Carpentry and collaborators’ Top 10 FAIR Data &amp;amp; Software Things; Australian Research Data Commons’ 23 (research data) things; Griffith University Library and eResearch Services’ Reproducible-Research-Things; Briney et al. Foundational Practices of Research Data Management).
 Our focus is specifically on the key issues of curating reproducible and FAIR research.</description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>https://curating4reproducibility.org/10things/intro/</link>
+      <link>/10things/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/intro/</guid>
+      <guid>/10things/intro/</guid>
       <description>Computational reproducibility is defined as the ability to obtain consistent computational results using the same input data, computational steps, methods, code, and analysis conditions as those used in the original study. Computational reproducibility is a means of making scientific claims more transparent. It is imperative for verifying and building upon reported findings, preserving a complete scientific record, and enhancing pedagogical strategies for research methods training. For various reasons, the computational reproducibility standard has not been adopted as an integral part of normative scientific practice.</description>
     </item>
     
     <item>
       <title>Thing 1: Completeness</title>
-      <link>https://curating4reproducibility.org/10things/thing01/</link>
+      <link>/10things/thing01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing01/</guid>
+      <guid>/10things/thing01/</guid>
       <description>Related FAIR Principles: R1, R1.2, R1.3
 Related FAIR4RS Principles: R1, R2, I2
 A research compendium contains all of the objects required to reproduce a predefined output.
@@ -40,10 +40,10 @@ Completeness ensures re-users of the research compendium are well-informed and h
     
     <item>
       <title>Thing 2: Organization</title>
-      <link>https://curating4reproducibility.org/10things/thing02/</link>
+      <link>/10things/thing02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing02/</guid>
+      <guid>/10things/thing02/</guid>
       <description>Related FAIR Principles: F2, I3, R1.3
 Related FAIR4RS Principles: F2, I2, R2, R3
 As research projects progress, they often evolve and things get more complicated and opaque over time; memory fails; project team members move on to new ventures. It is difficult to predict what may happen with a project down the line, so it is important to properly organize a compendium throughout the project itself.
@@ -52,10 +52,10 @@ Organization is necessary to understand and to keep track of the various artifac
     
     <item>
       <title>Thing 3: Economy</title>
-      <link>https://curating4reproducibility.org/10things/thing03/</link>
+      <link>/10things/thing03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing03/</guid>
+      <guid>/10things/thing03/</guid>
       <description>Related FAIR Principles: R1
 Related FAIR4RS Principles: R1
 When curating a reproducible file bundle, consider any extraneous parts that can be cut to make the overall bundle simpler to streamline computational reproduction.
@@ -65,10 +65,10 @@ Economizing everything means fewer research objects can break while also requiri
     
     <item>
       <title>Thing 4: Transparency</title>
-      <link>https://curating4reproducibility.org/10things/thing04/</link>
+      <link>/10things/thing04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing04/</guid>
+      <guid>/10things/thing04/</guid>
       <description>Related FAIR Principles: I3, R1, R1.2, R1.3
 Related FAIR4RS Principles: I2, R1, R1.2, R2, R3
 Transparency is a precondition of computational reproducibility. Ideally, the research compendium provides full disclosure of the research process that produced the scientific claim.
@@ -77,10 +77,10 @@ The inability to reproduce results is often caused by missing or insufficient in
     
     <item>
       <title>Thing 5: Documentation</title>
-      <link>https://curating4reproducibility.org/10things/thing05/</link>
+      <link>/10things/thing05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing05/</guid>
+      <guid>/10things/thing05/</guid>
       <description>Related FAIR Principles: F2, R1, R1.2, R1.3
 Related FAIR4RS Principles: R1, R1.2, R3
 An important strategy for demonstrating research transparency is to create comprehensive documentation that captures important details of the research process so that others are able to follow it to reproduce published research results. Failing to record essential information about the research compendium—descriptions of individual compendium files, technical requirements for using compendium files, the origin of materials used in secondary analyses, dataset variable and value code definitions, analytical steps for generating expected results—relegates the research process to a “black box,” making it difficult or even impossible to reproduce results.</description>
@@ -88,10 +88,10 @@ An important strategy for demonstrating research transparency is to create compr
     
     <item>
       <title>Thing 6: Access</title>
-      <link>https://curating4reproducibility.org/10things/thing06/</link>
+      <link>/10things/thing06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing06/</guid>
+      <guid>/10things/thing06/</guid>
       <description>Related FAIR Principles: F1, F2, F4, A1, A1.1, A1.2, I1, R1.1
 Related FAIR4RS Principles: F1, F2, F4, A1, A1.1, A1.2, R1.1
 Science is a community endeavor that sees maximum benefits when the materials produced in the course of research activities are made maximally available to community members to enable them to build upon, reuse, and verify scientific knowledge.
@@ -100,10 +100,10 @@ Fortunately, trustworthy repositories exist to preserve research artifacts for l
     
     <item>
       <title>Thing 7: Provenance</title>
-      <link>https://curating4reproducibility.org/10things/thing07/</link>
+      <link>/10things/thing07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing07/</guid>
+      <guid>/10things/thing07/</guid>
       <description>Related FAIR Guiding Principle: R1.2
 Related FAIR4RS Guiding Principle: R1.2
 Provenance is a fundamental archiving principle that refers to information about the origins, chain of custody, and ownership of an object, which helps to establish the object’s authenticity and authority. Provenance describes the lineage of data and other digital objects.
@@ -112,10 +112,10 @@ In the context of research compendium components, knowledge about their sources,
     
     <item>
       <title>Thing 8: Metadata</title>
-      <link>https://curating4reproducibility.org/10things/thing08/</link>
+      <link>/10things/thing08/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://curating4reproducibility.org/10things/thing08/</guid>
+      <guid>/10things/thing08/</guid>
       <description>Related FAIR Principles: ALL
 Related FAIR4RS Guiding Principle: ALL
 Metadata are information that describe an object and may convey details such as who created the object, when and how the object was created, its purpose, its license or other terms of use, and how it is related to other objects.
