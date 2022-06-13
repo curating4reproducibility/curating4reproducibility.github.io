@@ -25,9 +25,9 @@
     {{ with .buttons }}
       {{ range . }}
       {{ $button := . }}
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .link }}" role="button">
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .url }}" role="button">
         {{ .text }}
-      </a>
+      </a>&nbsp;
       {{ end }}
     {{ end }}
       </div>

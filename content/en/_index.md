@@ -3,21 +3,38 @@ title: CUrating for REproducibility
 description: "The CUrating for REproducibility (CuRe) Consortium supports curation of research data and review of code and associated digital scholarly objects for the purpose of facilitating the digital preservation of the evidence-base necessary for future understanding, evaluation, and reproducibility of scientific claims."
 layout: landing
 landing:
+#  image:
+#    src: "cure-logo.png"
+#    alt: "CURE logo"
+#    width: 3
+#  title:
+#    text: "Curating research artifacts to support scientific integrity."
+#    width: 9
+#    align: "left"
   image:
-    src: "cure-logo.png"
+    src: "cure.png"
     alt: "CURE logo"
-    width: 3
+    width: 12
   title:
     text: "Curating research artifacts to support scientific integrity."
-    width: 9
+    width: 12
     align: "left"
   body:
     width: 12
     align: "left"
     description: "The CUrating for REproducibility (CuRe) Consortium supports curation of research data and review of code and associated digital scholarly objects for the purpose of facilitating the digital preservation of the evidence-base necessary for future understanding, evaluation, and reproducibility of scientific claims."
+  buttons:
+    - text: "10 Things"
+      url: "/10things"
+    - text: "Data Quality Review"
+      url: "/resources/dqr"
+    - text: "Training"
+      url: "/training"
+    - text: "Get Involved!"
+      url: "/about/getinvolved"
 sections:
   - type: card
-    width: 5
+    width: 6
     align: "center"
     body: 
       title: "What is CURE about?"
