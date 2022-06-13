@@ -1,4 +1,4 @@
-baseURL = "https://curating4reproducibility.org"
+#baseURL = "https://curating4reproducibility.org"
 relativeURLs = true
 canonifyURLs = true
 disableAliases = true
