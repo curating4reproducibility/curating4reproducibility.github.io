@@ -1,0 +1,142 @@
+<p><strong>Related FAIR Principles: <a href="https://www.go-fair.org/fair-principles/">ALL</a></strong></p>
+
+<p><strong><a href="https://doi.org/10.15497/RDA00068">Related FAIR4RS Guiding Principle</a>: ALL</strong></p>
+
+<p>Metadata are information that describe an object and may convey details such as who created the object, when and how the object was created, its purpose, its license or other terms of use, and how it is related to other objects.</p>
+
+<p><strong>Ideally structured and machine-readable, metadata about the research compendium and its component parts can be preserved and made accessible alongside the compendium to facilitate discovery and use.</strong></p>
+
+<p>Ask: is information about the research process (data, analysis, and production), the research compendium, and each of its components FAIR: findable, accessible, interoperable, and reusable?</p>
+
+<p>The FAIR guiding principles make specific recommendations on types of metadata and ways of encoding it that are especially important for making data and code available. For Findability, identifiers are important as well as rich metadata (see below). For Accessibility making clear how to access the data or software (see <a href="../thing06">Thing 6</a>), and ensuring that metadata remains available are important. For Interoperability, the use of standards in encoding metadata are important (see below). Finally, Provenance (see <a href="../thing07">Thing 7</a>) and licenses (see <a href="../thing06">Thing 6</a>) are specifically mentioned in the context of enabling Reusability.</p>
+
+<p>Machine readable metadata refers to information structured such that it can be automatically read and processed by a computer. There are various metadata schemas available to accommodate the standards, requirements, and conventions of various domains, a number of which have tools or templates that can be used to generate structured metadata or verify the integrity of a structured metadata record.</p>
+
+<h3 id="standards">Standards</h3>
+
+<p>A metadata standard is a set of required and optional metadata elements used to describe objects in a consistent manner. Use of a metadata standard can increase the probability of interoperability and contribute to a shared understanding of the meaning of the data.</p>
+
+<p>To find a standard suitable for a particular discipline or data type, start with a metadata directory. Where a disciplinary standard doesn’t exist, it is better to adopt terms from an existing standard(s), or use a general-purpose metadata schema such as DCMI Metadata Terms or DataCite Metadata Schema. You may also consider joining the Research Data Alliance to start work on defining a standard.</p>
+
+<h4 id="sample-metadata-directories">Sample metadata directories</h4>
+
+<ul>
+  <li>The <a href="http://rd-alliance.github.io/metadata-directory/standards/">Metadata Standards Catalog</a>, created by the Metadata Standards Directory Working Group at the Research Data Alliance (RDA) is a directory of standards in use by various disciplines. Other relevant RDA work has been published by the <a href="https://www.rd-alliance.org/groups/metadata-ig.html">Metadata Interest Group</a> and <a href="https://www.rd-alliance.org/groups/research-metadata-schemas-wg">Research Metadata Schemas Working Group</a>, including <a href="https://www.rd-alliance.org/system/files/documents/Guidelines%20for%20publishing%20structured%20data_V3.0_20210615.pdf">Guidelines for Publishing Structured Metadata on the Web</a>.</li>
+  <li>INCF standards and best practices portfolio for neuroscience includes many examples of discipline and method specific standards. <a href="https://www.incf.org/resources/sbps">https://www.incf.org/resources/sbps</a></li>
+  <li>FAIRSharing.org is a curated resource with many data and metadata standards, which can be narrowed by domain. <a href="https://fairsharing.org/standards/">https://fairsharing.org/standards/</a></li>
+</ul>
+
+<h4 id="sample-metadata-standards">Sample metadata standards</h4>
+
+<ul>
+  <li>Neuroscience: Brain Imaging Data Structure (<a href="https://bids.neuroimaging.io/">BIDS</a>) is a standard for organizing and describing neuroimaging and behavioral data.
+    <ul>
+      <li><strong>Gorgolewski, K., Auer, T., Calhoun, V. et al. The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. <em>Sci Data 3</em>, 160044 (2016). <a href="https://doi.org/10.1038/sdata.2016.44">https://doi.org/10.1038/sdata.2016.44</a></strong><br />
+The Brain Imaging Data Structure (BIDS) is a standard for organizing and describing MRI datasets. The BIDS standard uses file formats compatible with existing software, unifies the majority of practices already common in the field, and captures the metadata necessary for most common data processing operations.</li>
+    </ul>
+  </li>
+  <li>Health care data exchange: Fast Healthcare Interoperability Resources (<a href="https://www.hl7.org/fhir/index.html">FHIR</a>) is a standard for communicating research findings; the intended scope of FHIR is broad, covering human and veterinary, clinical care, public health, clinical trials, administration and financial aspects. The standard is intended for global use and in a wide variety of architectures and scenarios.</li>
+  <li>Social and behavioral science: Data Documentation Initiative (<a href="https://ddialliance.org/">DDI</a>) is a standard used to describe survey data and observational data in social, behavioral, economic and health sciences – see below.</li>
+</ul>
+
+<h3 id="templates">Templates</h3>
+
+<p>There are various tools and resources available that can be used to generate structured metadata, or to validate structured metadata records. The resources below can help you get started.</p>
+
+<ul>
+  <li>The <a href="https://rd-alliance.github.io/metadata-directory/tools/">Metadata Standards Catalog</a> maintains a list of tools for generating, editing, or validating metadata records</li>
+  <li>The Consortium of European Social Science Data Archives (CESSDA) <a href="https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata">“Documentation and metadata” training module</a> includes links to a number of templates that can be used to describe resources in a standardized manner.</li>
+  <li><a href="https://metadatacenter.org/">CEDAR</a> maintains a number of <a href="https://more.metadatacenter.org/tools-training/cedar-metadata-tools">Metadata Tools</a> that can be used to annotate and describe data; although originally designed for biomedical data, CEDAR’s <a href="https://more.metadatacenter.org/tools-training/cedar-template-tools">Template Tools</a> could be used to adapt templates for other disciplines</li>
+  <li>GO FAIR <a href="https://www.go-fair.org/resources/go-fair-workshop-series/metadata-for-machines-workshops/">Metadata for Machines Workshops</a></li>
+  <li>The <a href="https://codemeta.github.io/codemeta-generator/">CodeMeta Generator</a> can be used to structure metadata that describes a software object in <a href="https://json-ld.org/">JSON-LD notation</a>. (See also the <a href="https://codemeta.github.io/user-guide/">User Guide</a>)</li>
+</ul>
+
+<h4 id="crosswalks">Crosswalks</h4>
+
+<p>A “crosswalk” is necessary when metadata created in one schema needs to be transformed to another schema, for example to facilitate sharing metadata between systems or to increase discoverability. For example, the crosswalk from <a href="https://www.loc.gov/marc/marc2dc.html">MARC to Dublin Core</a> by the Library of Congress.</p>
+
+<p>For a basic overview, see the ARDC 23 (Research Data) Things lesson on <a href="https://au-research.github.io/ARDC-23-things/researchdata/thing-13">metadata crosswalks</a>.</p>
+
+<p>The following resources provide more information:</p>
+
+<ul>
+  <li><strong>Ojsteršek. (2021). <em>Crosswalk of Most Used Metadata Schemes and Guidelines for Metadata Interoperability (1st ed.)</em> [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.4420116">https://doi.org/10.5281/zenodo.4420116</a>.</strong><br />
+This resource provides crosswalks among the most commonly used metadata schemes and guidelines to describe digital objects in Open Science. This resource is also referenced by <a href="https://fairsharing.org/collection/CrosswalkOfMostUsedMetadataSchemesAndGuidelines">FAIRsharing.org</a>.</li>
+</ul>
+
+<p>An in-depth look at the Data Documentation Initiative:</p>
+
+<p>The Data Documentation Initiative (DDI) has been working to establish “metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods.” DDI Lifecycle provides free standards that “document and manage different stages of the research data lifecycle, including conceptualization, collection, process, distribution, discovery, and archiving” of social, behavioral, economic, and health sciences. The standard includes metadata at the study- and file-level, for example:</p>
+
+<h3 id="study-level">Study-level</h3>
+
+<ul>
+  <li>A researcher ID (e.g. <a href="https://orcid.org/">ORCID</a>) is specified for each author specified</li>
+  <li>Research organizations specified for author affiliations, <a href="https://ror.org/">ROR</a> identifier added if possible</li>
+  <li>Research funding is specified, <a href="https://www.crossref.org/services/funder-registry/">CrossRef Funder Registry</a> Funder ID specified if possible. Grant ID is specified in standard format of funder (e.g. NIH funding IDs should include Activity code, Institute/Center, and Serial Number - see <a href="https://era.nih.gov/erahelp/commons/#Commons/understandGrantNums.htm%3FTocPath%3D_____17">NIH guide</a>)</li>
+  <li>License is standard, linked, and machine-readable license describing allowable reuse (see License section in Thing 6 for more details)</li>
+  <li>Study registrations are linked
+    <ul>
+      <li>Clinical Trials registrations include ClinicalTrials.gov Identifier</li>
+      <li>Study pre-registrations are linked with DOIs or links (e.g. OSF registries)</li>
+    </ul>
+  </li>
+  <li>Associated materials are linked using persistent identifiers or links
+    <ul>
+      <li>Associated publications or preprints are noted with full citations and DOIs</li>
+      <li>Protocols deposited in repositories include DOIs (e.g. Protocols.io)</li>
+      <li>Related datasets, code, other digital materials deposited in other repositories are linked with DOIs</li>
+      <li>Relationship type between these items and the compendium is noted in a standard, machine-readable way if possible (see e.g., <a href="https://www.crossref.org/blog/doing-more-with-relationships-via-event-data/">https://www.crossref.org/blog/doing-more-with-relationships-via-event-data/</a>)</li>
+    </ul>
+  </li>
+  <li>Title of compendium is meaningful, provides context to the work, and is not exactly the same as the title of an associated publication</li>
+  <li>A publication date is listed for the compendium, revision dates are also listed</li>
+</ul>
+
+<h3 id="file-level">File-level</h3>
+
+<ul>
+  <li>When possible, separate machinhttps://citation-file-format.github.io/e-readable and structured files are used to convey compendia metadata, such as</li>
+  <li>Citation using <a href="https://citation-file-format.github.io/">CITATION.cff</a> or BibTeX files (<a href="https://scipy.org/citing-scipy/">CITATION.bib example</a>)</li>
+  <li>Environment variables captured in environment.yml</li>
+  <li>License metadata can be done at least different 3 ways:
+    <ul>
+      <li>Captured as a standard text file (<a href="https://github.com/scipy/scipy/blob/master/LICENSE.txt">LICENSE.txt example</a>)</li>
+      <li>Recorded in metadata via a vocabulary (e.g., <a href="https://spdx.org/licenses">SPDX terms</a>)</li>
+      <li>Recorded in schema.org digest (as json) or markup in html</li>
+    </ul>
+  </li>
+  <li>Some mechanisms for capturing software/code metadata include:
+    <ul>
+      <li><a href="https://codemeta.github.io/">codemeta.json</a> file</li>
+      <li><a href="https://developers.zenodo.org/#deposit-metadata">.zenodo.json</a> (deposit metadata) file</li>
+      <li><a href="https://citation-file-format.github.io/">CITATION.cff</a> file</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="variable-level">Variable-level</h3>
+
+<ul>
+  <li>Variable-level DDI metadata define the variables and specify units of measurement and permitted values (including missing value codes); it is applied to quantitative data.</li>
+  <li>This information is usually embedded within data files, e.g. as a header, or in column labels or generated from statistical package files.</li>
+</ul>
+
+<p>The resources below offer a deeper look at metadata – what it is, how to use it, and some of the challenges.</p>
+
+<ul>
+  <li><strong>Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. <em>Scientific Data 3</em>, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a></strong><br />
+Machine-actionable metadata is information that enables the agent to have the capacity, “when faced with a digital object never encountered before, to: a) identify the type of object (with respect to both structure and intent), b) determine if it is useful within the context of the agent’s current task by interrogating metadata and/or data elements, c) determine if it is usable, with respect to license, consent, or other accessibility or use constraints, and d) take appropriate action, in much the same manner that a human would.”</li>
+  <li><strong>CESSDA Training Team (2017 - 2020). <em>CESSDA Data Management Expert Guide</em>. Bergen, Norway: CESSDA ERIC. Retrieved from <a href="https://www.cessda.eu/DMGuide">https://www.cessda.eu/DMGuide</a></strong><br />
+Start getting familiar with metadata with this guide from CESSDA.</li>
+  <li><strong>Jedinger, Alexander. (2020). <em>What Is Metadata and How Do I Document My Data?</em> Presented at the CESSDA Training Days 2019 (CTD2019), Cologne, Germany: Zenodo. <a href="http://doi.org/10.5281/zenodo.3923956">http://doi.org/10.5281/zenodo.3923956</a></strong><br />
+A video with Alexander Jedinger discussing metadata and data documentation.</li>
+  <li><strong>Baca, Murtha, ed. (2016). <em>Introduction to Metadata (3rd ed.)</em>. Los Angeles: Getty Publications <a href="http://www.getty.edu/publications/intrometadata">http://www.getty.edu/publications/intrometadata</a></strong><br />
+An overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections.</li>
+  <li><strong>Alper, Brian S., Joshua E Richardson, Harold P Lehmann, Vignesh Subbian (2020). It is Time for Computable Evidence Synthesis: The COVID-19 Knowledge Accelerator initiative, <em>Journal of the American Medical Informatics Association, 27(8)</em>, 1338–1339, <a href="https://doi.org/10.1093/jamia/ocaa114">https://doi.org/10.1093/jamia/ocaa114</a></strong><br />
+Efforts to establish universal standards for biomedical data exchange, including proposed metadata crosswalk.</li>
+  <li><strong>Manninen, Lauren (2018) Describing Data: A Review of Metadata for Datasets in the Digital Commons Institutional Repository Platform: Problems and Recommendations, <em>Journal of Library Metadata, 18</em>(1), 1-11, <a href="https://doi.org/10.1080/19386389.2018.1454379">https://doi.org/10.1080/19386389.2018.1454379</a></strong><br />
+A review of data hosted in Digital Commons repositories found that there is a need for a standardized language in describing research data within Digital Commons Institutional
+Repositories.</li>
+</ul>
+

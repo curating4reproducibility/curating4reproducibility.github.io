@@ -1,0 +1,245 @@
+<p><strong>Related FAIR Principle: <a href="https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/">Reusable</a></strong></p>
+
+<p><strong><a href="https://doi.org/10.15497/RDA00068">Related FAIR4RS Principle</a>: Reusability</strong></p>
+
+<p>Computational reproducibility is a particular type of Reuse. It refers to a user’s ability to execute computations in order to reproduce results reported in scholarly publications (<a href="https://www.nap.edu/read/25303">NASEM, 2019</a>). A primary reason for curation in this context is to assess whether computational reproducibility can be achieved using the digital artifacts contained within the research compendium.</p>
+
+<p>Curators helping prepare and review materials for archiving and publishing are often the “first reusers” of these materials.</p>
+
+<p><strong>A review is a series of managed activities that helps ensure continued access to and functionality of the research compendium and its components for as long as necessary.</strong></p>
+
+<p>Sharing of data and code is increasingly encouraged or mandated by various stakeholders in the scientific landscape. The <a href="https://doi.org/10.1787/947717bc-en">OECD</a> in 2020 notes that data and code are often required to achieve reproducibility of scientific results, a key goal: “sharing access to the data underpinning scientific publications allows peers to test and reproduce scientific results. In practice, data alone are often insufficient to test reproducibility, and enhanced access to analysis software is also necessary.”</p>
+
+<p>The 2021 <a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en">UNESCO Recommendation on Open Science</a> states that, “scientific outputs related to publications (e.g. original scientific research results, research data, software, source code, source materials, workflows and protocols, digital representations of pictorial and graphical materials and scholarly multimedia material) that are openly licensed or dedicated to the public domain should be deposited in a suitable open repository, following appropriate technical standards that allow them to be properly linked to publications.”</p>
+
+<p>This document also recommends changes to “peer review and other evaluation and verification methods” in order to achieve improved “quality, reproducibility and impact of science, and thereby the reliability of the evidence needed for robust decision making and policy and increased trust in science.”</p>
+
+<h3 id="reviewing-code">Reviewing code</h3>
+
+<p>When curating for reproducible research, the <a href="http://dx.doi.org/10.2218/ijdc.v9i1.317">Data Quality Review Framework</a> can help organize review activities into four categories: Files, Documentation, Data, and Code. Many of the Things in this document address concepts and strategies that cover reviewing files, documentation, and data.</p>
+
+<p>We focus here on “Code Review” as it is a newer practice, but one that is integral to the archival and publication of a computationally reproducible research compendium.</p>
+
+<p>In general terms, code review includes an assessment of,</p>
+
+<ul>
+  <li>The purpose of the code (e.g., recoding variables, manipulating or testing data, testing hypotheses, analysis), and</li>
+  <li>Whether the code accomplishes this goal. In many cases, that means a verification that the code is executable and that reported findings are verified.</li>
+</ul>
+
+<p>Code review can take place before the research compendium is published (“pre-publication review”) or after it is published (“post-publication review”).</p>
+
+<p>The practice of code review can be implemented by professional staff in repositories and archives, academic institutions, scholarly associations and commercial publishers, and third-parties or by peers.</p>
+
+<p>Curators can identify problems with code files and remediate them before materials are archived and published. The resources below include examples of code-related irreproducibility, guidelines, tools, and services for managing the review and verification process, and information about badges.</p>
+
+<h3 id="examples-of-code-related-irreproducibility">Examples of code-related irreproducibility</h3>
+
+<p>Challenges to reproducibility that involve code may include,</p>
+
+<ul>
+  <li>Un- or non-executable code. The code cannot be compiled, or running the code returns errors.</li>
+  <li>Error in variable operation. The code executes but the operation diverges from its description in the manuscript. For example, a manuscript defines obese as BMI &gt;28, but the code
+defines obese as BMI&gt;= 28.</li>
+  <li>Output discrepancy. The code executes but produces different results. For example, R code produces a result that is different from the result reported in the manuscript.</li>
+  <li>Messy code. The code executes but requires high computing power.</li>
+  <li>Hardcoded values. The code executes but values reported in the code are not generated by the code. The value may be generated by hand calculator or a different application (e.g.,
+Excel) and results are entered into a program file. This can cause errors when data is further refined or if a mistake was made when calculating it.</li>
+  <li>Outdated comments. The code executes but it has been evidently updated such that comments in the code no longer apply. For example, comments have typos or have not been updated.</li>
+</ul>
+
+<h3 id="how-to-review-code-and-address-code-related-irreproducibility">How to review code and address code-related irreproducibility</h3>
+
+<p>Curators, data and information professionals, researchers and others all can contribute to preventing and addressing these problems to ensure that re-users of the research compendium are able to reproduce the results without needing to contact the original producer or track down missing components. Re-users might be the original authors at a later point in time, curators, peer reviewers, and others.</p>
+
+<p><strong>Guidelines.</strong> Several organizations engaged with code review offer useful guidelines for how to curate materials for reproducibility. Guidelines tend to be domain-specific because the requirements are specific. Some examples of domain-specific guidelines include,</p>
+
+<ul>
+  <li>The <a href="https://curating4reproducibility.org/">CURE Consortium</a> (Curating for Reproducibility) provides materials</li>
+  <li>Fifteen Code Review Things (see <a href="../thing09">Thing 9: Automation</a>)</li>
+  <li><a href="https://socialsciences.cornell.edu/research-support/R-squared">Cornell Center for Social Sciences R2</a> provides Reproduction Materials Review Recommendations</li>
+</ul>
+
+<p><strong>Tools.</strong> There are also several tools for managing the review, verification, and curation process. For example, <a href="https://wholetale.org/index.html">Whole Tale</a>, <a href="https://codecheck.org.uk/guide/community-workflow">CODECHECK</a>, and <a href="https://www.cascad.tech/">CASCaD</a> are options for general-purpose projects. See this conversation about solutions for reproducibility on the <a href="https://reproducibility.acm.org/2021/04/30/reproducibility-solutions-taking-the-pulse/">Taking the Pulse blog</a>.</p>
+
+<p>Some examples of domain-specific tools include,</p>
+
+<ul>
+  <li>Yale Application for Data Review (<a href="http://doi.org/10.5334/dsj-2020-028">YARD</a>)</li>
+  <li>Social Science Reproduction Platform (<a href="https://www.bitss.org/introducing-the-social-science-reproduction-platform-a-resource-for-teaching-and-improving-computational-reproducibility/">SSRP</a>)</li>
+</ul>
+
+<p>See the “Go deeper” section below for more resources about the practice of reproducibility checks.</p>
+
+<h2 id="who-reviews-code">Who reviews code</h2>
+
+<p>Researchers, curators, publisher and repository staff, and others may review the code to verify reproducibility. For example, a number of <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current">ACM</a> (the Association of Computing Machinery) conferences and journals have instituted formal processes for artifact review.</p>
+
+<p>Third-party services are individuals or organizations not affiliated directly with the primary stakeholders in the research lifecycle (e.g., researchers, repositories, institutions, or publishers). Third-party services can be contracted to assist with the verification process.</p>
+
+<p>Some examples of domain-specific services include,</p>
+
+<ul>
+  <li><a href="https://socialsciences.cornell.edu/research-support/R-squared">Cornell Center for Social Science R2</a></li>
+  <li><a href="https://odum.unc.edu/archive/">Odum Institute for Research in Social Science</a></li>
+</ul>
+
+<p>Who reviews and how is a function of the goal of the review as well as the timing (i.e., pre- or post-publication).</p>
+
+<p><strong>Researchers can do a lot to facilitate computational reproducibility of their own research.</strong> Anticipating and preventing code-related irreproducibility early in the research life-cycle is prudent. Researchers can avoid potential problems and help ensure a research compendium is ready for archiving and publication by following these five review steps before submitting a manuscript for publication:</p>
+
+<ol>
+  <li>Review your code. Run your code from start to finish in one go. If possible, use a different computer with just the base package of the statistical software used in the analysis installed. Correct all errors encountered. Note the following in the README:
+    <ol>
+      <li>Operating System used and its version</li>
+      <li>CPUs and RAMs</li>
+      <li>Statistical software package used and their version</li>
+      <li>Packages/libraries/Ados used and their version<br />
+Why? So you can verify that the code is error-free; detect and note the packages, libraries, and ado files required to run your analysis; and so that future re-users of your files have sufficient information to rebuild the computing environment used in the analysis, if necessary.</li>
+    </ol>
+  </li>
+  <li>Review your manuscript. Verify that methods and operationalization of variables stipulated in the manuscript were correctly implemented in the code. For example, if obesity was defined as bmi &gt;28 in the manuscript, then it should be coded as bmi &gt;28 in the code, and not bmi &gt;=28. Ensure the following are cited in your manuscript:
+    <ol>
+      <li>Dataset used. Cite yourself if you created the dataset.</li>
+      <li>Statistical software used</li>
+      <li>Packages, libraries, and ado files used</li>
+    </ol>
+  </li>
+  <li>Review the output produced by your code. Compare the results generated by your code to the findings presented in the manuscript. They should be identical up to the last decimal place. Verify you are pulling numbers from the correct table columns or cells.</li>
+  <li>Review your data. Make sure all original and computed variables are labeled. And prepare a Data Availability Statement for each dataset used in the study, which details the steps to acquire the data and its license.</li>
+  <li>Review your README. Make sure it has instructions on how to reproduce the study, contact information of the primary author, data and code citations and licenses, data availability statements, and information about the computing environment and packages, libraries, and ados used in the study.</li>
+</ol>
+
+<p>Note: A useful, domain-specific, resource is offered by the <a href="https://aeadataeditor.github.io/aea-de-guidance/preparing-for-data-deposit.html">American Economic Association (AEA) Data Editor</a>. These are guidelines for authors on how to prepare a “replication package” for an AEA journal.</p>
+
+<p>Review is an integral aspect of the scientific process and an important aspect of reproducible research. Learn more about key topics related to review.</p>
+
+<h3 id="fair-principles-and-code-review">FAIR principles and code review</h3>
+
+<p>Gold standard data review has been a province of data archives for a long time (e.g., Inter-university Consortium for Political and Social Research (<a href="https://www.icpsr.umich.edu/web/pages/datamanagement/lifecycle/index.html">ICPSR</a>), <a href="https://www.data-archive.ac.uk/managing-data/digital-curation-and-data-publishing/curation-process/">UK Data Archive</a>). Many of the curation practices common in such archives conforms to the FAIR principles for data.</p>
+
+<p>Recently, new platforms have been created to review and assess data and metadata specifically for “FAIRNESS” (e.g., FAIR Metadata Assessment tool is in development by <a href="https://www.dataone.org/fair/">DataONE</a>; <a href="https://fairsharing.github.io/FAIR-Evaluator-FrontEnd">FAIR Evaluator</a> developed by <a href="https://fairsharing.org/">FAIRsharing.org</a>; <a href="https://www.f-uji.net/">F-UJI</a> developed by PANGAEA under the umbrella of the <a href="https://www.fairsfair.eu/">FAIRsFAIR</a> project; <a href="https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/">Australian Research Data Commons’</a> FAIR data self assessment tool).</p>
+
+<p>Efforts have been made to apply FAIR to <a href="https://www.sciencedirect.com/science/article/pii/S2666389921000362">research software</a>.</p>
+
+<h3 id="journal-policies-and-computational-reproducibility">Journal policies and computational reproducibility</h3>
+
+<p>Perhaps inspired by the <a href="https://www.cos.io/initiatives/top-guidelines">Transparency and Openness Promotion (TOP) Guidelines</a>, scholarly journals have been implementing policies requiring authors to provide data and code and submitting these materials to various levels of scrutiny and review.</p>
+
+<p>The <a href="https://www.nap.edu/catalog/25303/reproducibility-and-replicability-in-science">National Academies of Science, Engineering, and Medicine</a> in the U.S. made the following recommendation in its report:</p>
+
+<blockquote>
+  <p>RECOMMENDATION 6-4: Journals should consider ways to ensure computational reproducibility for publications that make claims based on computations, to the extent ethically and legally possible.</p>
+</blockquote>
+
+<p>The NASEM report goes on to acknowledge that this can present some challenges:</p>
+
+<blockquote>
+  <p>Although ensuring such reproducibility prior to publication presents technological and practical challenges for researchers and journals, new tools might make this goal more realistic. Journals should make every reasonable effort to use these tools, make clear and enforce their transparency requirements, and increase the reproducibility of their published articles.</p>
+</blockquote>
+
+<p>Examples of journal policies that require data and code sharing and that include a code review:</p>
+
+<h4 id="general">General</h4>
+
+<ul>
+  <li><a href="https://www.science.org/content/page/science-journals-editorial-policies#data-and-code-deposition">Science Data and Code Deposition Policy</a></li>
+  <li><a href="https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards">Nature Reporting Standards and Availability of Data, Materials, Code and Protocols</a></li>
+  <li><a href="https://journals.plos.org/plosone/s/materials-software-and-code-sharing">PLOS Materials, Software, and Code Sharing</a></li>
+</ul>
+
+<h4 id="political-science">Political Science</h4>
+
+<ul>
+  <li><a href="https://www.journals.uchicago.edu/journals/jop/data-replication">Journal of Politics Data Replication Policy</a></li>
+  <li><a href="https://ajps.org/ajps-verification-policy/">American Journal of Political Science (AJPS) Verification Policy</a> (read the <a href="https://doi.org/10.2218/ijdc.v13i1.555">Christian, et al., (2018)</a> article on the collaboration between AJPS and the Odum Institute Data Archive to develop a workflow that bridges manuscript publication and data review processes.)</li>
+</ul>
+
+<h4 id="economics--management">Economics &amp; Management</h4>
+
+<ul>
+  <li><a href="https://www.aeaweb.org/journals/data/data-code-policy">American Economic Association (AEA) Code and Data Availability Policy</a></li>
+  <li><a href="https://www.res.org.uk/journals/the-econometrics-journal/submissions/replication-policy.html">Royal Economic Society Replication Policy</a></li>
+  <li><a href="https://pubsonline.informs.org/page/mnsc/datapolicy">Management Science Policy for Data and Code Disclosure</a></li>
+</ul>
+
+<h3 id="resources-on-the-practice-of-reproducibility-checks">Resources on the practice of reproducibility checks</h3>
+
+<ul>
+  <li><strong>Christian, T.-M. L., Lafferty-Hess, S., Jacoby, W. G., &amp; Carsey, T. (2018). Operationalizing the replication standard. <em>International Journal of Digital Curation, 13</em>(1), 114–124. <a href="https://doi.org/10.2218/ijdc.v13i1.555">https://doi.org/10.2218/ijdc.v13i1.555</a></strong><br />
+A case study of the collaboration between AJPS and the Odum Institute Data Archive to develop a workflow that bridges manuscript publication and data review processes.</li>
+  <li><strong>Nüst D. and Eglen S.J. (2021). CODECHECK: An Open Science Initiative for the Independent Execution of Computations Underlying Research Articles During Peer Review to Improve Reproducibility [version 2; peer review: 2 approved]. <em>F1000Research</em>, 10:253. <a href="https://doi.org/10.12688/f1000research.51738.2">https://doi.org/10.12688/f1000research.51738.2</a></strong><br />
+The CODECHECK system uses open infrastructure and tools and can be integrated into review and publication processes in multiple ways.</li>
+  <li><strong>Peer, L., Green, A., and Stephenson, E. (2014). Committing to Data Quality Review. <em>International Journal of Digital Curation, 9</em>(1): 263–91 <a href="https://doi.org/10.2218/ijdc.v9i1.317">https://doi.org/10.2218/ijdc.v9i1.317</a></strong><br />
+“We can think of a continuum of data curation that progresses from a basic level where data are accepted ‘as is’ for the purpose of storage and discovery, to a higher level of curation which includes processing for preservation, improved usability, and compliance, to an even higher level of curation which also undertakes the verification of published results.”</li>
+  <li><strong>Peer, L. and Dull, J. (2020). YARD: A Tool for Curating Research Outputs. <em>Data Science Journal, 19</em>(1), 28. <a href="http://doi.org/10.5334/dsj-2020-028">http://doi.org/10.5334/dsj-2020-028</a></strong><br />
+YARD (Yale Application for Research Data) is an adaptable curation workflow tool that enhances research outputs and associated digital artifacts designated for archival and reuse.
+YARD helps create high quality data packages that are FAIR, transparent, and reproducible.</li>
+  <li><strong>Peng, R.D. (2011). Reproducible Research in Computational Science. <em>Science, 334</em>(6060), 1226-1227. <a href="https://doi.org/10.1126/science.1213847">https://doi.org/10.1126/science.1213847</a></strong><br />
+Argues that articles that have passed the reproducibility review “convey the idea that a knowledgeable individual has reviewed the code and data and was capable of producing the results claimed by the author. In cases in which questionable results are obtained, reproducibility is critical to tracking down the ‘bugs’ of computational science.”</li>
+</ul>
+
+<h3 id="reproducibility-badges">Reproducibility badges</h3>
+
+<p>Badges are considered “simple, effective signals to promote open practices and improve preservation of data and materials by using independent repositories.</p>
+
+<ul>
+  <li>The Association for Computing Machinery (<a href="https://www.acm.org/publications/policies/artifact-review-badging">ACM</a>) lists several badges for reproducibility reviews.</li>
+  <li>The Center for Open Science (<a href="https://www.cos.io/initiatives/badges">COS</a>) badges acknowledge open science practices (sharing data, materials, or pre-registration).</li>
+</ul>
+
+<p>For more information on badges, see:</p>
+
+<ul>
+  <li><strong>Hardwicke, T.E., et al. (2021). Analytic Reproducibility in Articles Receiving Open Data Badges at the Journal Psychological Science: An Observational Study. <em>Royal Society
+Open Science, 8</em>: 201494. <a href="https://doi.org/10.1098/rsos.201494">https://doi.org/10.1098/rsos.201494</a></strong><br />
+Evaluated analytic reproducibility in 25 Psychological Science articles awarded open data badges between 2014 and 2015. 16 articles (64%) contained at least one major numerical discrepancy, requiring additional input from original authors.</li>
+  <li><strong>Kidwell, M.C., et al. (2016). Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency. <em>PLoS Biology 14</em>(5):e1002456. <a href="https://doi.org/10.1371/journal.pbio.1002456">https://doi.org/10.1371/journal.pbio.1002456</a></strong><br />
+Found that when badges were earned, reportedly available data were more likely to be actually available, correct, usable, and complete than when badges were not earned. Badges are simple, effective signals to promote open practices and improve preservation of data and materials by using independent repositories.</li>
+</ul>
+
+<h3 id="active-maintenance">Active maintenance</h3>
+
+<p>Confirming computational reproducibility at a single point in time is not a guarantee of long term reproducibility. While some aspects of curation are more or less “one and done” (e.g., assigning a persistent ID to a file, documenting a dataset), others call for repeated assessment. As a curator, you will need to perform periodic reviews, or <strong><em>maintenance</em></strong>, ideally in a scheduled and automated way, and remediate if need be.</p>
+
+<p>The idea that digital curation is an ongoing activity, a “series of managed activities necessary to ensure continued access to digital materials for as long as necessary” is central to <a href="https://www.dpconline.org/docs/digital-preservation-handbook/299-digital-preservation-handbook/file">digital preservation</a>. It is reinforced in the foundational text that defines the FAIR principles: “Beyond proper collection, annotation, and archival, data stewardship includes the notion of ‘long-term care’ of valuable digital assets, with the goal that they should be discovered and re-used for downstream investigations, either alone, or in combination with newly generated data” (<a href="https://doi.org/10.1038/sdata.2016.18">Wilkinson et al., 2016</a>; Italics added).</p>
+
+<p>Maintenance highlights the time dimension of curation. Consider this: It is common practice for an archive concerned about the authenticity and integrity of its digital content to make use of checksums at the time of deposit, and in subsequent periodic reviews (see, for example, <a href="https://www.icpsr.umich.edu/web/pages/datamanagement/preservation/policies/dpp-framework.html">ICPSR Digital Preservation Policy Framework</a>). Similarly, concern about computational reproducibility calls for not only curation of the research compendium (that includes all the other Things in this document) at one point in time, often indicated with a badge (see, for example, the <a href="https://www.acm.org/publications/policies/artifact-review-badging">ACM’s Artifact Review and Badging</a>), but a periodic review.</p>
+
+<p>When planning to publish or archive a research compendium you will want to think about what might require periodic review. What might you worry about breaking down over time?</p>
+
+<p>Specifically, consider the effect of the following scenarios on computational reproducibility:</p>
+
+<ul>
+  <li>Digital files may get corrupted, inaccessible, or unavailable.</li>
+  <li>Permissions to access data may change.</li>
+  <li>Computer programs, scripts, or code may become unavailable or may not compile or execute.</li>
+  <li>Computing environments and parameters may change.</li>
+</ul>
+
+<p>The following resources may be useful in considering the above scenarios:</p>
+
+<h4 id="on-the-rationale-for-maintenance">On the rationale for maintenance:</h4>
+
+<ul>
+  <li><strong>Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. (2016). The FAIR Guiding Principles for Scientific Data Management and Stewardship. <em>Scientific Data 3</em>, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a></strong><br />
+The position that long-term care of digital materials is a continuous activity is articulated in the Wilkinson et al 2016 article that originally introduced the FAIR principles: “Beyond proper collection, annotation, and archival, data stewardship includes the notion of ‘long-term care’ of valuable digital assets, with the goal that they should be discovered and re-used for downstream investigations, either alone, or in combination with newly generated data” (Italics added).</li>
+  <li><strong>UNESCO. (2020, March 2). <em>UNESCO Recommendation on Open Science</em>. <a href="https://en.unesco.org/science-sustainable-future/open-science/recommendation">https://en.unesco.org/science-sustainable-future/open-science/recommendation</a></strong><br />
+The report states that, “Open research data… [should be made] available in a timely and user-friendly, human- and machine-readable and actionable format, in accordance with principles of good data governance and stewardship, notably the FAIR (Findable, Accessible, Interoperable, and Reusable) principles, supported by regular curation and maintenance” (Italics added).</li>
+  <li><strong>Spinellis, D., Louridas, P., &amp; Kechagia, M. (2021). Software Evolution: The Lifetime of Fine-Grained Elements. PeerJ. <em>Computer Science, 7</em>, e372. <a href="https://doi.org/10.7717/peerj-cs.372">https://doi.org/10.7717/peerj-cs.372</a></strong><br />
+A challenge for ensuring long term computational reproducibility is rooted in the fact that it relies on code and software. When it comes to code, the time horizon for “regular curation and maintenance” is not clear. The lifespan of code is, by this estimation, less than two and a half years.</li>
+  <li><strong>Peer, L., Orr, L., &amp; Coppock, A. (2021). Active Maintenance: A Proposal for the Long-Term Computational Reproducibility of Scientific Results. <em>PS: Political Science &amp; Politics, 54</em>(3), 462-466. <a href="https://doi.org/10.1017/S1049096521000366">https://doi.org/10.1017/S1049096521000366</a></strong><br />
+Proposing that researchers dedicated to computational reproducibility should have a plan in place for “active maintenance” of their analysis code, and offering concrete suggestions for how data archives, journals, and research communities could encourage and reward the active maintenance of scientific code and data.</li>
+</ul>
+
+<h4 id="on-strategies-for-maintenance">On strategies for maintenance:</h4>
+
+<ul>
+  <li><strong>Perkel, J. (2020). Challenge to Scientists: Does Your Ten-Year-Old Code Still Run? <em>Nature 584</em>, 656-658. <a href="https://doi.org/10.1038/d41586-020-02462-7">https://doi.org/10.1038/d41586-020-02462-7</a></strong><br />
+As a dynamic digital object, code “will eventually decay, and you will have to repair it, and you’ll have to replace it,” as Carole Goble points out.</li>
+  <li><strong>Akhlaghi, M., Infante-Sainz, R., Roukema, B. F., Khellat, M., Valls-Gabaud, D., &amp; Baena-Gallé, R. (2021). Toward Long-Term and Archivable Reproducibility. <em>Computing in Science Engineering, 23</em>(3), 82–91. <a href="https://doi.org/10.1109/MCSE.2021.3072860">https://doi.org/10.1109/MCSE.2021.3072860</a></strong><br />
+Introducing “Maneage” (managing data lineage), which enables cheap archiving, provenance extraction, and peer verification that has been tested in several research publications. The article includes 8 criteria for longevity (i.e., “the length of time that a project remains functional after its creation”). Includes review of the longevity of commonly used tools (e.g., Docker, Jupyter).</li>
+  <li><strong>National Digital Stewardship Alliance (2019). <em>The Levels of Digital Preservation V2.0 Matrix</em>. <a href="https://ndsa.org/publications/levels-of-digital-preservation/">https://ndsa.org/publications/levels-of-digital-preservation/</a></strong><br />
+A framework for thinking about the specific actions that curating for reproducible and FAIR research entails. The Framework specifies the actions necessary to ensure that digital content is known, protected, monitored, and sustained.</li>
+</ul>
+

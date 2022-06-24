@@ -1,0 +1,46 @@
+<p><strong>Related FAIR Principles: <a href="https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/">R1</a></strong></p>
+
+<p><strong><a href="https://doi.org/10.15497/RDA00068">Related FAIR4RS Principles</a>: R1</strong></p>
+
+<p>When curating a reproducible file bundle, consider any extraneous parts that can be cut to make the overall bundle simpler to streamline computational reproduction.</p>
+
+<p><strong>Economizing everything means fewer research objects can break while also requiring less care and maintenance over time.</strong></p>
+
+<p>Simplifying and commenting out code are a couple of methods for tackling economization; however, the approach may vary depending on the type of software or methods being used for analysis. During file review and/or curation, here are some questions to consider:</p>
+
+<ul>
+  <li>Can the scripts be simplified by removing redundancies or using loops and functions, for example?</li>
+  <li>Are code blocks ordered logically according to the presentation of the results in the publication?</li>
+  <li>Is there a master script that groups together all the other scripts? Are there additional scripts outside the master script and if so, are they necessary?</li>
+  <li>Are the dependencies to the scripts or code all necessary?</li>
+  <li>Are there comments in the code to help understand the computational workflow?</li>
+  <li>Are there notebooks?</li>
+</ul>
+
+<p>More information on economization in the context of a research compendium can be found in <a href="../thing05">Thing 5: Documentation</a> and <a href="../thing09">Thing 9: Automation</a>. The following resources contain relevant information as well:</p>
+
+<ul>
+  <li><strong><em>Literate programming</em>. (n.d.). Retrieved December 15, 2021, from <a href="http://www.literateprogramming.com/">http://www.literateprogramming.com/</a></strong><br />
+A collection of best practices and guidance for programming, documentation, and code commenting.</li>
+  <li><strong>Gillespie, C., &amp; Lovelace, R. (n.d.). <em>Efficient R programming</em>. Retrieved December 15, 2021, from <a href="https://csgillespie.github.io/efficientR/">https://csgillespie.github.io/efficientR/</a></strong><br />
+This book covers not only programmer efficiency, but also computational efficiency to write more effective and streamlined code using R.</li>
+  <li><strong>Martin, R. C. (Ed.). (2009). <em>Clean code: A handbook of agile software craftsmanship</em>. Prentice Hall. <a href="https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf">https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf</a></strong><br />
+A guide on writing clean and concise code covering topics such as good vs. bad commenting, slow code, and formatting.</li>
+  <li><strong>Gentzkow, Matthew and Jesse M. Shapiro. (2014). <em>Code and data for the social sciences: A practitioner’s guide</em>. University of Chicago. <a href="https://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf">https://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf</a>, last updated January 2014.</strong><br />
+Chapter 6, in particular, discusses the three rules of abstraction when writing code to eliminate redundancy and improve readability of the final product.</li>
+</ul>
+
+<p>As mentioned previously, the approach to economizing code is dependent upon many factors. Here are resources specific to a few disciplines that highlight some best practices:</p>
+
+<ul>
+  <li><strong>Benureau, Fabien C.Y., and Rougier, Nicolas P. (2018). <em>Re-run, repeat, reproduce, reuse, replicate: Transforming code into scientific contributions. Frontiers in Neuroinformatics, 11</em>. <a href="https://doi.org/10.3389/fninf.2017.00069">https://doi.org/10.3389/fninf.2017.00069</a>.</strong></li>
+  <li><strong>Palomino, Jenny, Wasser, Leah, and Joseph, Max. (2021). <em>Earth Lab. Earth Data Analytics</em>. Intro to Earth Data Science. Section 7 - Write Efficient and Clean Code Using Open Source Python. <a href="https://www.earthdatascience.org/courses/intro-to-earth-data-science/write-efficient-python-code/">https://www.earthdatascience.org/courses/intro-to-earth-data-science/write-efficient-python-code/</a></strong></li>
+  <li><strong>Battig, W. F. (1962). Parsimony in psychology. <em>Psychological Reports, 11</em>(2), 555–572. <a href="https://doi.org/10.2466/pr0.1962.11.2.555">https://doi.org/10.2466/pr0.1962.11.2.555</a></strong></li>
+</ul>
+
+<p>There are also tools available to assist with cleaning code. For example:</p>
+
+<ul>
+  <li><strong>ROpenSci. (n.d.). <em>A tool for writing cleaner, more transparent code</em>. Retrieved December 15, 2021, from <a href="https://docs.ropensci.org/Rclean/">https://docs.ropensci.org/Rclean/</a></strong></li>
+</ul>
+
