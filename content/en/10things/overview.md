@@ -53,4 +53,3 @@ The “10 Things for Curating Reproducible and FAIR Research” addresses the fo
 {{< details "**Is there a plan for reviewing the research compendium for FAIR and computational reproducibility standards over time?**" >}}
 
 [**Thing 10: Review**](10things/thing10): A series of managed activities are needed to ensure continued access to and functionality of the research compendium and its components for as long as necessary.
-
