@@ -1,6 +1,6 @@
 #baseURL = "https://curating4reproducibility.org"
 #relativeURLs = true
-canonifyURLs = true
+#canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
