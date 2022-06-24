@@ -1,17 +1,17 @@
-//const autoprefixer = require('autoprefixer');
+const autoprefixer = require('autoprefixer');
 const purgecss = require('@fullhuman/postcss-purgecss');
 const whitelister = require('purgecss-whitelister');
 
 module.exports = {
   plugins: [
-//    autoprefixer(),
+    autoprefixer(),
     purgecss({
       content: [
         './layouts/**/*.html',
         './content/**/*.md',
       ],
       safelist: [
-/*        'lazyloaded',
+        'lazyloaded',
         'table',
         'thead',
         'tbody',
@@ -21,7 +21,7 @@ module.exports = {
         'h5',
         'alert-link',
         'container-xxl',
-        'container-fluid',*/
+        'container-fluid',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           './assets/scss/components/_buttons.scss',
