@@ -33,8 +33,7 @@ landing:
     - text: "Get Involved!"
       url: "/about/getinvolved"
 sections:
-  - type: card
-    width: 6
+  - width: 6
     align: "center"
     body: 
       title: "What is CURE about?"
