@@ -24,16 +24,21 @@ landing:
     align: "left"
     description: "The CUrating for REproducibility (CuRe) Consortium supports curation of research data and review of code and associated digital scholarly objects for the purpose of facilitating the digital preservation of the evidence-base necessary for future understanding, evaluation, and reproducibility of scientific claims."
   buttons:
-    - text: "10 Things"
-      url: "/10things"
-    - text: "Data Quality Review"
-      url: "/resources/dqr"
-    - text: "Training"
-      url: "/training"
-    - text: "Get Involved!"
-      url: "/about/getinvolved"
+    width: "12"
+    align: "center"
+    links:
+      - text: "10 Things"
+        url: "/10things"
+      - text: "News"
+        url: "/news"
+      - text: "Data Quality Review"
+        url: "/resources/dqr"
+      - text: "CURE Training"
+        url: "/training"
+      - text: "Get Involved!"
+        url: "/about/getinvolved"
 sections:
-  - width: 6
+  - width: 5
     align: "center"
     body: 
       title: ""

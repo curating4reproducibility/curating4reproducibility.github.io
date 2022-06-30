@@ -21,16 +21,19 @@
         <p class="lead">
           {{ .description | markdownify }}
         </p>
+      </div>
     {{ end }}
     {{ with .buttons }}
-      {{ range . }}
-      {{ $button := . }}
+    {{ $buttons := . }}
+    <div class="col-lg-{{ .buttonblockwidth | default 12 }} col-xl-{{ .buttonblockwidth | default 12 }} text-{{ .buttonblockalign | default "center" }}">
+      {{ range .links }}
+      {{ $link := . }}
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .url }}" role="button">
         {{ .text }}
       </a>&nbsp;
       {{ end }}
-    {{ end }}
       </div>
+    {{ end }}
     </div>
   </div>
 </section>
