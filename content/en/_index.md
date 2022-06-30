@@ -36,7 +36,7 @@ sections:
   - width: 6
     align: "center"
     body: 
-      title: "What is CURE about?"
+      title: ""
       description: ""
     cards:
       - subtitle: "Transparency, Access, and Trust"
