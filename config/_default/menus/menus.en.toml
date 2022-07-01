@@ -95,7 +95,7 @@
 #  url = "https://twitter.com/getdoks"
 #  weight = 20
 
-[[footer]]
-  name = "© 2022 CURE Consortium"
-  url = "/copyright/"
-  weight = 10
+#[[footer]]
+#  name = "© 2022 CURE Consortium"
+#  url = "/copyright/"
+#  weight = 20

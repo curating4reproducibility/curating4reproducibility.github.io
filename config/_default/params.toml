@@ -22,6 +22,9 @@ ogLocale = "en_US"
 domainTLD = "curating4reproducibility.org"
 titleHome = "CUrating for REproducibility"
 
+## Copyright
+copyright = "&copy; 2021-2022 CURE Consortium"
+
 ## Twitter Cards
 #twitterSite = "@"
 #twitterCreator = ""
@@ -74,6 +77,14 @@ smallLimit = "300"
     name = "Yale University"
     logo = "/images/yale.png"
     link = "https://yale.edu"
+
+[funders]
+  [funders.imls]
+    name = "Institute for Museum and Library Services"
+    logo = "/images/imls.png"
+    link = "https://imls.gov"
+  [funders.imls2]
+    text = "This project was made possible in part by the Institute of Museum and Library Services grant numbers RE-87-17-0074-17 and RE-36-19-0081-19."
 
 # Footer
 footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com/\">GitHub Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>."

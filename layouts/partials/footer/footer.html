@@ -1,31 +1,59 @@
 <footer class="footer text-muted">
   {{ if .Site.Params.sponsors }}
-    <section class="section section-sm container-fluid">
+    <section class="section sponsors section-sm container-fluid">
       <div class="row justify-content-center text-center">
         {{ range .Site.Params.sponsors }}
           {{ $sponsor := .}}
             <div class="col-lg-5 text-center">
-              <a href="{{ .link }}"><img class="sponsor" src="{{ .logo }}" alt="{{ .name }}"></a>
+              {{ with .logo }}
+              <a href="{{ $sponsor.link }}"><img class="sponsor" src="{{ $sponsor.logo }}" alt="{{ $sponsor.name }}" target="_blank"></a>
+              {{ end }}
+              {{ with .text }}
+              <p>{{ .text }}</p>
+              {{ end }}
             </div>
         {{ end }}
       </div>
     </section>
   {{ end }}
-  <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
+  {{ if .Site.Params.funders }}
+    <section class="section funders section-sm container-fluid">
+      <div class="row justify-content-center text-center">
+        {{ range .Site.Params.funders }}
+          {{ $funder := .}}
+            <div class="col-lg-6 text-center">
+              {{ with .logo }}
+              <a href="{{ $funder.link }}"><img class="sponsor" src="{{ $funder.logo }}" alt="{{ $funder.name }}" target="_blank"></a>
+              {{ end }}
+              {{ with .text }}
+              <p>{{ $funder.text }}</p>
+              {{ end }}
+            </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8 order-last order-lg-first">
+          <!-- <p>&copy; 2021-2022 CURE Consortium</p> -->
+          <p>{{ .Site.Params.copyright | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+<!--  <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
     <div class="row justify-content-center text-center">
-      <!--<div class="col-lg-8 order-last order-lg-first">
-        <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
-        </ul>
+      <div class="col-lg-8 order-last order-lg-first">
+        <p>{{ .Site.Params.copyRight }}</p>
       </div> 
-      <div class="col-lg-5 order-first order-lg-last text-lg-end"> -->
+      <div class="col-lg-5 order-first order-lg-last text-lg-end">
       <div class="col-lg-5 text-center">
         <ul class="list-inline">
           {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            <li class="list-inline-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end -}}
         </ul>
-      </div>
+      </div> 
     </div>
-  </div>
+    </div> -->
 </footer>

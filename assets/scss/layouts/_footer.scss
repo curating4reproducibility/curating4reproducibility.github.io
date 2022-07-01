@@ -1,7 +1,10 @@
-.footer section {
+.footer section.sponsors {
   border-bottom: 1px solid;
   border-image-source: linear-gradient(90deg, $cornell, $carolina 50%, $yale);
   border-image-slice: 1;
+}
+
+.footer section {
   margin-bottom: 1.25rem;
   padding-bottom: 2.5rem;
 }
@@ -21,6 +24,10 @@
 .footer li {
   font-size: $font-size-sm;
   margin-bottom: 0;
+}
+
+section.funders p {
+  padding: 1.75rem 0;
 }
 
 @include media-breakpoint-up(md) {
