@@ -41,7 +41,7 @@ sections:
   - width: 5
     align: "center"
     body: 
-      title: ""
+      title: "Guiding Principles"
       description: ""
     cards:
       - subtitle: "Transparency, Access, and Trust"
@@ -57,4 +57,3 @@ lastmod: 2022-05-11T17:30:00+00:00
 draft: false
 images: []
 ---
-
