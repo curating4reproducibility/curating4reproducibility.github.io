@@ -4,6 +4,9 @@ description: "The origin of the components of the research compendium and how ea
 draft: false
 weight: 70
 toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 
 **Related FAIR Guiding Principle: [R1.2](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/)**

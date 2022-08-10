@@ -4,6 +4,9 @@ description: "Information about the research compendium and its components is em
 draft: false
 weight: 80
 toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 **Related FAIR Principles: [ALL](https://www.go-fair.org/fair-principles/)**
 

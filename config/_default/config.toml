@@ -90,3 +90,134 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/mermaid"
     target = "assets/js/vendor/mermaid"
+
+[params]
+  docsRepo = "https://github.com/curating4reproducibility/curating4reproducibility.github.io"
+# Meta Data for SEO
+
+## Homepage
+title = "CUrating for REproducibility"
+titleSeparator = "|"
+#titleAddition = ""
+description = "CURE’s mission is to support curation of research data to support the reproducibility of scientific claims"
+# Header images
+headerImg = "cure.png"
+headerImgAlt = "CUrating for REproducibility"
+# Other images
+headerImgSVG = "cure.svg"
+iconSVG = "cure-logo.svg"
+# FaviconGenerator?
+useFaviconGenerator = true
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["cure.png"]
+ogLocale = "en_US"
+domainTLD = "curating4reproducibility.org"
+titleHome = "CUrating for REproducibility"
+
+## Copyright
+copyright = "&copy; 2021-2022 CURE Consortium"
+
+## Twitter Cards
+#twitterSite = "@"
+#twitterCreator = ""
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "CUrating for REproducibility"
+schemaAuthor = "CURE Consortium"
+schemaAuthorTwitter = ""
+schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/curating4reproducibility/"
+schemaLocale = "en-US"
+schemaLogo = "cure-logo.png"
+schemaLogoWidth = 300
+schemaLogoHeight = 300
+schemaImage = "cure.png"
+schemaImageWidth = 200
+schemaImageHeight = 45
+schemaTwitter = ""
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Sponsors
+[sponsors]
+  [sponsors.cornell]
+    name = "Cornell University"
+    logo = "/images/cornell.png"
+    link = "https://cornell.edu"
+  [sponsors.unc]
+    name = "University of North Carolina"
+    logo = "/images/carolina.png"
+    link = "https://unc.edu"
+  [sponsors.yale]
+    name = "Yale University"
+    logo = "/images/yale.png"
+    link = "https://yale.edu"
+
+[funders]
+  [funders.imls]
+    name = "Institute for Museum and Library Services"
+    logo = "/images/imls.png"
+    link = "https://imls.gov"
+  [funders.imls2]
+    text = "This project was made possible in part by the Institute of Museum and Library Services under grants RE-87-17-0074-17 and RE-36-19-0081-19."
+
+# Footer
+#footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com/\">GitHub Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>."
+
+# Feed
+copyRight = "Copyright (c) 2021-2022 CURE Consortium"
+
+# Alert
+alert = false
+alertDismissable = true
+# This can be used to configure an alert on first load.
+#alertText = ""
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+#repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/curating4reproducibility/curating4reproducibility.github.io/"
+#docsRepoBranch = "main"
+#docsRepoSubPath = "edit"
+editPage = true
+lastMod = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true

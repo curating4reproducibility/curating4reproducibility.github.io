@@ -4,7 +4,7 @@ description:
 draft: false
 menu:
   10things:
-    parent: "overview"
+    parent: "10 Things"
 weight: 1
 toc: true
 ---

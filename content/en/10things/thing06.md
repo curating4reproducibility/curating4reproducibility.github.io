@@ -4,6 +4,9 @@ description: "It is clear who can use what, how, and under what conditions, with
 draft: false
 weight: 60
 toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 **Related FAIR Principles: [F1](https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/), [F2](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/), [F4](https://www.go-fair.org/fair-principles/f4-metadata-registered-indexed-searchable-resource/), [A1](https://www.go-fair.org/fair-principles/542-2/), [A1.1](https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/), [A1.2](https://www.go-fair.org/fair-principles/a1-2-protocol-allows-authentication-authorisation-required/), [I1](https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/), [R1.1](https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/)**
 

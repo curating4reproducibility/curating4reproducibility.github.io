@@ -33,10 +33,10 @@
 			{{ end -}}
 			{{ .Content }}
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
-				{{ if .Site.Params.lastMod -}}
+				{{ if ne .Site.Params.lastMod false -}}
 					{{ partial "main/last-modified.html" . }}
 				{{ end -}}
-				{{ if .Site.Params.editPage -}}
+				{{ if ne .Site.Params.editPage false -}}
 					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
 			</div>

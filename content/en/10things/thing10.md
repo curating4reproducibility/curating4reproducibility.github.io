@@ -3,8 +3,10 @@ title: "Thing 10: Review"
 description: "A series of managed activities are needed to ensure continued access to and functionality of the research compendium and its components for as long as necessary."
 draft: false
 weight: 100
-enableToc: true
-tocLevels: ["h2", "h3", "h4"]
+toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 **Related FAIR Principle: [Reusable](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)**
 

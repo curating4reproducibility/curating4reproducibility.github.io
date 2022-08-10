@@ -4,6 +4,9 @@ description: "As much as possible, the computational workflow is script- or work
 draft: false
 weight: 90
 toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 **Related FAIR Principle: [Reusable](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)**
 

@@ -4,6 +4,9 @@ description: "It is easy to understand and keep track of the various objects in 
 draft: false
 weight: 20
 toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 **Related FAIR Principles: [F2](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/), [I3](https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/), [R1.3](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)**
 

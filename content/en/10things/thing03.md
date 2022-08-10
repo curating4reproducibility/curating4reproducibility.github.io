@@ -4,6 +4,9 @@ description: "Fewer extraneous objects in the compendium mean fewer things that 
 draft: false
 weight: 30
 toc: true
+menu:
+  10things:
+    parent: "10 Things"
 ---
 **Related FAIR Principles: [R1](https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/)**
 
