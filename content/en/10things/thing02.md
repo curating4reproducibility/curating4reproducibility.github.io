@@ -35,8 +35,8 @@ For more information on recommended organizational best practices and tips, plea
 
 - **Tier protocol 4.0. TIER Protocol 4.0 | Project TIER | Teaching Integrity in Empirical Research. (n.d.). Retrieved October 22, 2021, from [https://www.projecttier.org/tier-protocol/protocol-4-0/.](https://www.projecttier.org/tier-protocol/protocol-4-0/)**<br>
 The TIER Protocol provides a guided hierarchy with descriptions and information on structuring a research compendium for computational reproducibility and curation.
-- **Open Science Framework (OSF). Best practices [File naming, Organizing files, Version control]. [https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing](https://help.osf.io/hc/en-us/sections/360003624133-File-Management-and-Licensing)**<br>
-The Open Science Framework offers many helpful tips and guides on best practices for sharing data and research workflows.
+- **Open Science Framework (OSF). Project Files [File naming, Organizing files, Version control]. [https://help.osf.io/article/387-project-files](https://help.osf.io/article/387-project-files**<br>
+The Open Science Framework offers many helpful tips and guides on best practices for project files, including [file naming](https://osf-support.helpscoutdocs.com/article/146-file-naming), [organizing files](https://osf-support.helpscoutdocs.com/article/147-organizing-files) and [version control](https://osf-support.helpscoutdocs.com/article/282-file-revisions-and-version-control).
 - ***File management | Research Data Management Service Group*. (n.d.). Retrieved December 14, 2021, from [https://data.research.cornell.edu/content/file-management](https://data.research.cornell.edu/content/file-management)**<br>
 The Cornell Research Data Management Service Group has a robust resource for file management recommendations and best practices.
 - **Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK. (2017). Good enough practices in scientific computing. *PLoS Comput Biol 13*(6): e1005510. [https://doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)**<br>
