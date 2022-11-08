@@ -55,12 +55,12 @@
   url = "/resources/dqr/"
  parent = "resources"
 
-#[[main]]
-#  name = "CURE Outputs"
-#  weight = 520
-#  identifier = "outputs"
-#  url = "/resources/outputs/"
-#  parent = "resources"
+[[main]]
+  name = "CURE Service Models"
+  weight = 520
+  identifier = "models"
+  url = "/resources/models/"
+  parent = "resources"
 
 #[[main]]
 #  name = "Resource Library"
